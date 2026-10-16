@@ -6,9 +6,9 @@ echo.
 echo Este script envia o projeto para o seu GitHub para que o
 echo GitHub Actions compile o arquivo .APK e crie o link publico direto!
 echo.
-echo URL configurada: https://github.com/lfaveri/xavante-app.git
+echo URL configurada: https://lfaveri@github.com/lfaveri/xavante-app.git
 echo.
-set "DEFAULT_URL=https://github.com/lfaveri/xavante-app.git"
+set "DEFAULT_URL=https://lfaveri@github.com/lfaveri/xavante-app.git"
 set /p REPO_URL="Digite a URL do repositorio (Pressione ENTER para usar %DEFAULT_URL%): "
 
 if "%REPO_URL%"=="" set "REPO_URL=%DEFAULT_URL%"
