@@ -10,7 +10,7 @@
     <!-- Google Fonts: Fredoka & Nunito (Duolingo visual aesthetics) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700;800;900&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
     
     <link rel="icon" type="image/jpeg" href="/assets/icon.jpg" />
     <link rel="manifest" href="/manifest.json" />
@@ -24,7 +24,7 @@
         <div class="top-bar-left">
           <div class="app-brand-badge" id="brand-badge">
             <img src="/assets/icon.jpg" alt="A'uwẽ Xavante" class="app-brand-icon" />
-            <span>A'uwẽ Mreme</span>
+            <span>APP - X: A'uwẽ Mreme</span>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
         <section class="dict-view" id="view-dictionary" style="display: none;">
           <div class="dict-header">
             <h1>Dicionário A'uwẽ</h1>
-            <p>Guia bilíngue Xavante ↔ Português com fonética e notas culturais 100% offline.</p>
+            <p>Palavras em Xavante e Português. Funciona sem internet.</p>
           </div>
 
           <div class="search-box">
@@ -82,23 +82,23 @@
         <section class="practice-view" id="view-practice" style="display: none;">
           <div class="practice-card">
             <div class="practice-icon">⚡</div>
-            <h2 style="font-size: 22px; font-weight: 900; color: #1F2937;">Treino do Guerreiro</h2>
-            <p style="font-size: 14px; color: #4B5563; line-height: 1.4;">
-              Pratique palavras aprendidas para recarregar seus corações e ganhar +15 XP!
+            <h2 style="font-size: 28px; font-weight: 900; color: #1F2937;">Treino</h2>
+            <p style="font-size: 20px; color: #4B5563; line-height: 1.4;">
+              Treine as palavras que você já aprendeu e ganhe mais corações!
             </p>
             <button class="btn-action-3d btn-primary-check" id="btn-start-practice" style="margin-top: 10px;">
-              Iniciar Treino (+1 ❤️)
+              Começar (+1 ❤️)
             </button>
           </div>
 
           <div class="practice-card" style="background: #FFFBEB; border-color: #FDE68A;">
             <div style="font-size: 36px;">📖</div>
-            <h3 style="font-size: 17px; font-weight: 800; color: #92400E;">Guia Fonético A'uwẽ</h3>
-            <p style="font-size: 13px; color: #78350F; text-align: left; line-height: 1.4;">
-              • <strong>' (Apóstrofo / Saltillo):</strong> Pausa glotal na garganta (ex: <em>Pi'õ</em>, <em>Datsa'a</em>).<br/>
-              • <strong>ã, õ, ẽ:</strong> Vogais nasais fortes.<br/>
-              • <strong>dz / z:</strong> Som africado ou fricativo suave.<br/>
-              • <strong>ö:</strong> Vogal fechada emitida com lábios relaxados.
+            <h3 style="font-size: 20px; font-weight: 800; color: #92400E;">Como falar em Xavante</h3>
+            <p style="font-size: 20px; color: #78350F; text-align: left; line-height: 1.4;">
+              • <strong>' (sinal):</strong> pare a voz um pouquinho (ex: <em>Pi'õ</em>, <em>Datsa'a</em>).<br/>
+              • <strong>ã, õ, ẽ:</strong> som pelo nariz.<br/>
+              • <strong>dz / z:</strong> som parecido com "dz" de "dizer".<br/>
+              • <strong>ö:</strong> som entre "e" e "o", com a boca solta.
             </p>
           </div>
         </section>
@@ -109,7 +109,7 @@
             <img src="/assets/mascot.jpg" alt="Perfil" class="profile-avatar" />
             <div class="profile-info">
               <h2>Estudante A'uwẽ</h2>
-              <p>Aprendiz da Trilha Xavante</p>
+              <p>Aprendendo Xavante</p>
               <div class="offline-chip" style="margin-top: 6px;">
                 <span>🟢</span> Modo Offline Ativo
               </div>
@@ -121,7 +121,7 @@
               <span class="stat-box-icon">⚡</span>
               <div>
                 <div class="stat-box-val" id="profile-xp-val">0</div>
-                <div class="stat-box-lbl">XP Total</div>
+                <div class="stat-box-lbl">Pontos</div>
               </div>
             </div>
 
@@ -129,7 +129,7 @@
               <span class="stat-box-icon">🔥</span>
               <div>
                 <div class="stat-box-val" id="profile-streak-val">1</div>
-                <div class="stat-box-lbl">Ofensiva (Dias)</div>
+                <div class="stat-box-lbl">Dias seguidos</div>
               </div>
             </div>
 
@@ -145,13 +145,13 @@
               <span class="stat-box-icon">🏆</span>
               <div>
                 <div class="stat-box-val" id="profile-badges-val">0</div>
-                <div class="stat-box-lbl">Conquistas</div>
+                <div class="stat-box-lbl">Prêmios</div>
               </div>
             </div>
           </div>
 
           <div class="achievements-section">
-            <h3>Conquistas Desbloqueáveis</h3>
+            <h3>Prêmios</h3>
             <div id="achievements-list" style="display: flex; flex-direction: column; gap: 10px;">
               <!-- Injected by JS -->
             </div>
@@ -159,10 +159,10 @@
 
           <!-- Sound & Reset Settings -->
           <div style="display: flex; gap: 10px; margin-top: 10px;">
-            <button class="btn-action-3d" id="btn-toggle-sound" style="flex: 1; background: #E5E7EB; color: #374151; box-shadow: 0 4px 0 #CBD5E1; font-size: 13px;">
+            <button class="btn-action-3d" id="btn-toggle-sound" style="flex: 1; background: #E5E7EB; color: #374151; box-shadow: 0 4px 0 #CBD5E1; font-size: 20px;">
               🔊 Som: Ligado
             </button>
-            <button class="btn-action-3d" id="btn-reset-data" style="flex: 1; background: #FEE2E2; color: #DC2626; box-shadow: 0 4px 0 #FCA5A5; font-size: 13px;">
+            <button class="btn-action-3d" id="btn-reset-data" style="flex: 1; background: #FEE2E2; color: #DC2626; box-shadow: 0 4px 0 #FCA5A5; font-size: 20px;">
               🔄 Reiniciar
             </button>
           </div>
@@ -214,20 +214,20 @@
 
         <!-- Victory Screen Inside Modal -->
         <div class="victory-screen" id="victory-screen">
-          <img src="/assets/mascot.jpg" alt="Tsere Feliz" class="victory-mascot" />
+          <img src="/assets/mascot.jpg" alt="Hu'u'upto Siptete feliz" class="victory-mascot" />
           <h2 class="victory-title">Tô Uptabi! Parabéns!</h2>
-          <p style="font-size: 15px; color: #4B5563; font-weight: 600;">
+          <p style="font-size: 20px; color: #4B5563; font-weight: 600;">
             Você completou a lição e fortaleceu seus conhecimentos na língua Xavante!
           </p>
 
           <div class="victory-stats-row">
             <div class="victory-stat-card">
               <span class="victory-stat-val" id="victory-xp-gained">+20</span>
-              <span class="victory-stat-lbl">XP Ganho</span>
+              <span class="victory-stat-lbl">Pontos</span>
             </div>
             <div class="victory-stat-card">
               <span class="victory-stat-val" id="victory-accuracy">100%</span>
-              <span class="victory-stat-lbl">Precisão</span>
+              <span class="victory-stat-lbl">Acertos</span>
             </div>
           </div>
 
@@ -242,7 +242,7 @@
             <div class="feedback-icon" id="feedback-icon">🎉</div>
             <div class="feedback-text">
               <h4 id="feedback-title">Muito bem!</h4>
-              <p id="feedback-desc">Tradução correta!</p>
+              <p id="feedback-desc">Você acertou!</p>
             </div>
           </div>
 
