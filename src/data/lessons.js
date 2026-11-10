@@ -76,7 +76,7 @@ export const UNITS = [
     number: 1,
     title: 'Primeiras Palavras: Oi e Tchau',
     description: 'Aprenda a dizer oi, obrigado e tchau na aldeia.',
-    color: '#D9381E', // Terracota Urucum
+    color: '#8D5524', // Marrom terra
     accentColor: '#FF7043',
     icon: '🤝',
     levels: [

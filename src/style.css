@@ -1367,3 +1367,20 @@ body, button, input, textarea, select { font-family: Arial, Helvetica, sans-seri
 /* Fase Acostumando: cartas com figura */
 .pair-card.pair-card-image { padding: 8px; min-height: 120px; background: #FFFFFF; }
 .pair-card-image img { width: 100%; max-width: 120px; height: auto; aspect-ratio: 1; object-fit: contain; pointer-events: none; }
+
+/* Seleção (antes de conferir) = AMARELO, para não confundir com acerto (azul) */
+.choice-btn.selected, .pair-card.pair-selected, .word-chip.selected {
+  background: #FFF4C2 !important; border: 4px solid #E0A800 !important; color: #5C4400 !important;
+  box-shadow: 0 4px 0 #B38600 !important;
+}
+/* Par errado = VERMELHO */
+.pair-card.pair-wrong {
+  background: var(--erro-fundo) !important; border: 4px solid var(--erro) !important; color: var(--erro) !important;
+  box-shadow: 0 4px 0 #7A0000 !important; animation: shakeWrong 0.4s;
+}
+@keyframes shakeWrong { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} }
+/* Faixas e textos que não são erro deixam de ser vermelhos */
+.speech-word-highlight, .speech-word-highlight span { color: #5C3A1E; }
+.start-hero { background: linear-gradient(135deg, #E08A00, #F5B700); box-shadow: 0 8px 0 #A86400, 0 12px 24px rgba(224,138,0,.35); }
+.start-arrow { color: #E08A00; }
+.start-hint { color: #8A5200; }

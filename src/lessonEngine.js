@@ -112,7 +112,13 @@ export class LessonEngine {
     if (q.phonetic) {
       const helper = document.createElement('div');
       helper.className = 'lesson-mascot-helper';
-      const promptWord = q.targetWord || q.options[q.correctIndex] || '';
+      // O som fala a PERGUNTA, nunca a resposta.
+      // Se a pergunta tem uma palavra Xavante entre aspas ("O que quer dizer 'Tô uptabi'?"), fala essa palavra.
+      // Se a resposta é em Xavante ("Como fala 'Tudo bem?' em Xavante?"), fala a pergunta inteira.
+      const quoted = (q.prompt.match(/"([^"]+)"/) || [])[1] || '';
+      const answerIsXavante = /como fala|chamam|você fala|a gente fala/i.test(q.prompt);
+      const promptWord = (!answerIsXavante && quoted) ? quoted : q.prompt;
+      q = { ...q, ttsHint: undefined };
       helper.innerHTML = `
         <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
         <div class="lesson-speech-bubble">
@@ -315,12 +321,14 @@ export class LessonEngine {
           } else {
             // Mismatch
             sounds.playWrong();
-            btn.classList.add('pair-selected');
+            first.btn.classList.remove('pair-selected');
+            first.btn.classList.add('pair-wrong');
+            btn.classList.add('pair-wrong');
             setTimeout(() => {
-              first.btn.classList.remove('pair-selected');
-              btn.classList.remove('pair-selected');
+              first.btn.classList.remove('pair-wrong');
+              btn.classList.remove('pair-wrong');
               this.matchState.selected = null;
-            }, 400);
+            }, 900);
           }
         }
       });
