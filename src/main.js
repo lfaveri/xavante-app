@@ -154,9 +154,9 @@ function renderTrail() {
   const mascotBanner = document.createElement('div');
   mascotBanner.className = 'mascot-banner';
   mascotBanner.innerHTML = `
-    <img src="/assets/mascot.jpg" alt="Tsere" class="mascot-thumb" />
+    <img src="/assets/mascot.jpg" alt="Hu'u'upto Siptete" class="mascot-thumb" />
     <div class="mascot-speech">
-      <strong>Tô ba!</strong> Eu sou o Tsere, seu guia no aprendizado da língua e cultura A'uwẽ Xavante!
+      <strong>Tô ba!</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
     </div>
   `;
   el.viewTrail.appendChild(mascotBanner);
@@ -180,7 +180,7 @@ function renderTrail() {
     banner.className = 'unit-banner';
     banner.style.background = `linear-gradient(135deg, ${unit.color}, ${unit.accentColor || '#333'})`;
     banner.innerHTML = `
-      <div class="unit-tag">${unit.icon} Unidade ${unit.number}</div>
+      <div class="unit-tag">${unit.icon} ${unit.number === 0 ? 'Começo' : `Parte ${unit.number}`}</div>
       <div class="unit-title">${unit.title}</div>
       <div class="unit-desc">${unit.description}</div>
     `;
@@ -213,25 +213,31 @@ function renderTrail() {
         nodeContent = unit.icon;
       }
 
+      const isFirst = globalLevelIndex === 0;          // Acostumando: seta "Comece aqui"
+      const isHero = isFirst || level.id === 'u1_l1';   // títulos em destaque
+      if (isHero) nodeWrapper.classList.add('node-first');
+
       nodeWrapper.innerHTML = `
+        ${isHero ? `<div class="start-hero">${level.title}</div>` : ''}
+        ${isFirst ? `<div class="start-arrow" aria-hidden="true">⬇</div><div class="start-hint">Comece aqui</div>` : ''}
         <button class="node-btn ${nodeClass}" id="node-btn-${level.id}">
           ${nodeContent}
           ${isCompleted ? `<div class="node-stars">${'⭐'.repeat(stars)}</div>` : ''}
         </button>
-        <div class="node-label">${level.title}</div>
+        ${isHero ? '' : `<div class="node-label">${level.title}</div>`}
       `;
 
       const btn = nodeWrapper.querySelector('.node-btn');
       btn.addEventListener('click', () => {
         if (!isUnlocked) {
           sounds.playWrong();
-          alert('Complete as lições anteriores para desbloquear esta fase!');
+          alert('Faça as lições de antes para abrir esta.');
           return;
         }
 
         if (state.hearts <= 0) {
           sounds.playWrong();
-          alert('Seus corações acabaram! Visite a aba "Praticar" para recarregar.');
+          alert('Seus corações acabaram! Toque em "Praticar" para ganhar mais.');
           switchTab('practice');
           return;
         }
@@ -390,14 +396,14 @@ function setupPractice() {
     const randomQuestions = [
       {
         type: 'choice',
-        prompt: 'Qual é o cumprimento Xavante para "Tudo bem / Como vai?"',
+        prompt: 'Como fala "Tudo bem?" em Xavante?',
         options: ['Tô ba?', 'Hã', 'Romhö', 'Aibö'],
         correctIndex: 0,
         phonetic: '[tõ ba]'
       },
       {
         type: 'match',
-        prompt: 'Treino de fixação: Conecte os pares:',
+        prompt: 'Junte cada palavra com o que ela quer dizer:',
         pairs: [
           { xavante: 'Hã', portuguese: 'Terra' },
           { xavante: 'Ö', portuguese: 'Água' },
@@ -407,7 +413,7 @@ function setupPractice() {
       },
       {
         type: 'choice',
-        prompt: 'Como se diz "Meu pai" em Xavante?',
+        prompt: 'Como fala "Meu pai" em Xavante?',
         options: ['I-mama', 'I-no', 'Aibö', 'Mo'],
         correctIndex: 0,
         phonetic: '[i-ma-ma]'
@@ -416,7 +422,7 @@ function setupPractice() {
 
     const practiceLevel = {
       id: 'practice_session',
-      title: 'Treino de Fixação',
+      title: 'Treino',
       xpReward: 15,
       questions: randomQuestions
     };

@@ -1,12 +1,32 @@
 // sw.js - Service Worker para funcionamento 100% Offline
-const CACHE_NAME = 'xavante-app-cache-v1';
+const CACHE_NAME = 'xavante-app-cache-v2';
 
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
   '/manifest.json',
   '/assets/icon.jpg',
-  '/assets/mascot.jpg'
+  '/assets/mascot.jpg',
+  '/assets/abelha.png',
+  '/assets/aranha.png',
+  '/assets/bocaiuva.png',
+  '/assets/borboleta.png',
+  '/assets/cachorro.png',
+  '/assets/ema.png',
+  '/assets/gato.png',
+  '/assets/grama.png',
+  '/assets/jacare.png',
+  '/assets/lagartixa.png',
+  '/assets/olho.png',
+  '/assets/ouvido.png',
+  '/assets/pato.png',
+  '/assets/pe.png',
+  '/assets/ponte.png',
+  '/assets/porco.png',
+  '/assets/sol.png',
+  '/assets/tamandua.png',
+  '/assets/tatu.png',
+  '/assets/vaca.png'
 ];
 
 self.addEventListener('install', (event) => {
