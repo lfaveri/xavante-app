@@ -94,7 +94,7 @@ function initApp() {
   // Register PWA Service Worker (Offline Support)
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').catch(err => {
+      navigator.serviceWorker.register('./sw.js').catch(err => {
         console.log('SW registration note:', err);
       });
     });
@@ -154,7 +154,7 @@ function renderTrail() {
   const mascotBanner = document.createElement('div');
   mascotBanner.className = 'mascot-banner';
   mascotBanner.innerHTML = `
-    <img src="/assets/mascot.jpg" alt="Hu'u'upto Siptete" class="mascot-thumb" />
+    <img src="assets/mascot.jpg" alt="Hu'u'upto Siptete" class="mascot-thumb" />
     <div class="mascot-speech">
       <strong>Tô ba!</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
     </div>

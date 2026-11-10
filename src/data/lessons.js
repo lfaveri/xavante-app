@@ -21,50 +21,50 @@ export const UNITS = [
             type: 'match',
             prompt: 'Toque na figura e depois na palavra certa:',
             pairs: [
-              { xavante: 'Tsibi', portuguese: 'Aranha', image: '/assets/aranha.png' },
-              { xavante: 'Bödo', portuguese: 'Sol', image: '/assets/sol.png' },
-              { xavante: 'Du', portuguese: 'Grama / Capim', image: '/assets/grama.png' },
-              { xavante: 'Mã', portuguese: 'Ema', image: '/assets/ema.png' }
+              { xavante: 'Tsibi', portuguese: 'Aranha', image: 'assets/aranha.png' },
+              { xavante: 'Bödo', portuguese: 'Sol', image: 'assets/sol.png' },
+              { xavante: 'Du', portuguese: 'Grama / Capim', image: 'assets/grama.png' },
+              { xavante: 'Mã', portuguese: 'Ema', image: 'assets/ema.png' }
             ]
           },
           {
             type: 'match',
             prompt: 'Toque na figura e depois na palavra certa:',
             pairs: [
-              { xavante: "A'odo", portuguese: "Bocaiúva", image: "/assets/bocaiuva.png" },
-              { xavante: "Dapo're", portuguese: "Ouvido", image: "/assets/ouvido.png" },
-              { xavante: 'Apaire', portuguese: 'Lagartixa', image: '/assets/lagartixa.png' },
-              { xavante: 'Uba', portuguese: 'Ponte', image: '/assets/ponte.png' }
+              { xavante: "A'odo", portuguese: "Bocaiúva", image: "assets/bocaiuva.png" },
+              { xavante: "Dapo're", portuguese: "Ouvido", image: "assets/ouvido.png" },
+              { xavante: 'Apaire', portuguese: 'Lagartixa', image: 'assets/lagartixa.png' },
+              { xavante: 'Uba', portuguese: 'Ponte', image: 'assets/ponte.png' }
             ]
           },
           {
             type: 'match',
             prompt: 'Toque na figura e depois na palavra certa:',
             pairs: [
-              { xavante: 'Waptsã', portuguese: 'Cachorro', image: '/assets/cachorro.png' },
-              { xavante: 'Powawe', portuguese: 'Vaca', image: '/assets/vaca.png' },
-              { xavante: "Aihoi'iré", portuguese: "Jacaré", image: "/assets/jacare.png" },
-              { xavante: 'Dapara', portuguese: 'Pé', image: '/assets/pe.png' }
+              { xavante: 'Waptsã', portuguese: 'Cachorro', image: 'assets/cachorro.png' },
+              { xavante: 'Powawe', portuguese: 'Vaca', image: 'assets/vaca.png' },
+              { xavante: "Aihoi'iré", portuguese: "Jacaré", image: "assets/jacare.png" },
+              { xavante: 'Dapara', portuguese: 'Pé', image: 'assets/pe.png' }
             ]
           },
           {
             type: 'match',
             prompt: 'Toque na figura e depois na palavra certa:',
             pairs: [
-              { xavante: 'Dató / Datõmõ', portuguese: 'Olho', image: '/assets/olho.png' },
-              { xavante: 'Uhobö', portuguese: 'Porco', image: '/assets/porco.png' },
-              { xavante: "Piró'óre", portuguese: "Borboleta", image: "/assets/borboleta.png" },
-              { xavante: 'Idzoúhu', portuguese: 'Abelha', image: '/assets/abelha.png' }
+              { xavante: 'Dató / Datõmõ', portuguese: 'Olho', image: 'assets/olho.png' },
+              { xavante: 'Uhobö', portuguese: 'Porco', image: 'assets/porco.png' },
+              { xavante: "Piró'óre", portuguese: "Borboleta", image: "assets/borboleta.png" },
+              { xavante: 'Idzoúhu', portuguese: 'Abelha', image: 'assets/abelha.png' }
             ]
           },
           {
             type: 'match',
             prompt: 'Toque na figura e depois na palavra certa:',
             pairs: [
-              { xavante: "Ma'u", portuguese: "Pato", image: "/assets/pato.png" },
-              { xavante: 'Pádi', portuguese: 'Tamanduá', image: '/assets/tamandua.png' },
-              { xavante: 'Wãrãhobo', portuguese: 'Tatu', image: '/assets/tatu.png' },
-              { xavante: 'Tsiwi', portuguese: 'Gato', image: '/assets/gato.png' }
+              { xavante: "Ma'u", portuguese: "Pato", image: "assets/pato.png" },
+              { xavante: 'Pádi', portuguese: 'Tamanduá', image: 'assets/tamandua.png' },
+              { xavante: 'Wãrãhobo', portuguese: 'Tatu', image: 'assets/tatu.png' },
+              { xavante: 'Tsiwi', portuguese: 'Gato', image: 'assets/gato.png' }
             ]
           }
         ]

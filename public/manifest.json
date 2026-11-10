@@ -2,20 +2,20 @@
   "name": "A'uwẽ - Aprenda Xavante",
   "short_name": "Xavante",
   "description": "Aplicativo gamificado estilo Duolingo para aprender palavras e frases da língua indígena Xavante 100% offline.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FAF7F2",
-  "theme_color": "#D9381E",
+  "theme_color": "#8D5524",
   "icons": [
     {
-      "src": "/assets/icon.jpg",
+      "src": "assets/icon.jpg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/mascot.jpg",
+      "src": "assets/mascot.jpg",
       "sizes": "512x512",
       "type": "image/jpeg"
     }

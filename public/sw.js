@@ -1,32 +1,35 @@
 // sw.js - Service Worker para funcionamento 100% Offline
-const CACHE_NAME = 'xavante-app-cache-v2';
+const CACHE_NAME = 'xavante-app-cache-v3';
 
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/assets/icon.jpg',
-  '/assets/mascot.jpg',
-  '/assets/abelha.png',
-  '/assets/aranha.png',
-  '/assets/bocaiuva.png',
-  '/assets/borboleta.png',
-  '/assets/cachorro.png',
-  '/assets/ema.png',
-  '/assets/gato.png',
-  '/assets/grama.png',
-  '/assets/jacare.png',
-  '/assets/lagartixa.png',
-  '/assets/olho.png',
-  '/assets/ouvido.png',
-  '/assets/pato.png',
-  '/assets/pe.png',
-  '/assets/ponte.png',
-  '/assets/porco.png',
-  '/assets/sol.png',
-  '/assets/tamandua.png',
-  '/assets/tatu.png',
-  '/assets/vaca.png'
+  './',
+  'index.html',
+  'manifest.json',
+  'assets/app.js',
+  'assets/index.css',
+  'assets/web.js',
+  'assets/abelha.png',
+  'assets/aranha.png',
+  'assets/bocaiuva.png',
+  'assets/borboleta.png',
+  'assets/cachorro.png',
+  'assets/ema.png',
+  'assets/gato.png',
+  'assets/grama.png',
+  'assets/icon.jpg',
+  'assets/jacare.png',
+  'assets/lagartixa.png',
+  'assets/mascot.jpg',
+  'assets/olho.png',
+  'assets/ouvido.png',
+  'assets/pato.png',
+  'assets/pe.png',
+  'assets/ponte.png',
+  'assets/porco.png',
+  'assets/sol.png',
+  'assets/tamandua.png',
+  'assets/tatu.png',
+  'assets/vaca.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -53,7 +56,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
+    caches.match(event.request, { ignoreVary: true, ignoreSearch: true }).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
@@ -73,7 +76,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Fallback for navigation requests
         if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
+          return caches.match('index.html');
         }
       });
     })

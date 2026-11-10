@@ -120,7 +120,7 @@ export class LessonEngine {
       const promptWord = (!answerIsXavante && quoted) ? quoted : q.prompt;
       q = { ...q, ttsHint: undefined };
       helper.innerHTML = `
-        <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
+        <img src="assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
         <div class="lesson-speech-bubble">
           <div class="speech-word-highlight">
             <span>Como fala:</span>
@@ -188,7 +188,7 @@ export class LessonEngine {
     const targetBox = document.createElement('div');
     targetBox.className = 'lesson-mascot-helper';
     targetBox.innerHTML = `
-      <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
+      <img src="assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
       <div class="lesson-speech-bubble">
         <div style="font-size: 20px; font-weight: 800; color: #1F2937;">"${q.targetTranslation}"</div>
         <div style="font-size: 20px; color: #6B7280; margin-top: 4px;">Toque nas palavras na ordem certa:</div>
@@ -355,7 +355,7 @@ export class LessonEngine {
     const helper = document.createElement('div');
     helper.className = 'lesson-mascot-helper';
     helper.innerHTML = `
-      <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
+      <img src="assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
       <div class="lesson-speech-bubble">
         <div class="speech-word-highlight">
           <span>Como fala:</span>
