@@ -68,7 +68,7 @@ export class LessonEngine {
     // Reset Footer & Feedback
     this.el.footer.className = 'lesson-footer';
     this.el.feedbackBanner.classList.remove('show');
-    this.el.btnCheck.textContent = 'Verificar';
+    this.el.btnCheck.textContent = 'Conferir';
     this.el.btnCheck.className = 'btn-action-3d btn-primary-check';
     this.el.btnCheck.disabled = true;
 
@@ -117,13 +117,12 @@ export class LessonEngine {
         <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
         <div class="lesson-speech-bubble">
           <div class="speech-word-highlight">
-            <span>Dica de Pronúncia:</span>
+            <span>Como fala:</span>
             <div style="display: flex; gap: 6px;">
               <button class="dict-audio-btn" id="btn-play-prompt-audio" title="Ouvir pronúncia normal">🔊</button>
-              <button class="dict-audio-btn" id="btn-play-prompt-slow" style="font-size: 14px;" title="Ouvir em velocidade lenta">🐢</button>
+              <button class="dict-audio-btn" id="btn-play-prompt-slow" style="font-size: 20px;" title="Ouvir em velocidade lenta">🐢</button>
             </div>
           </div>
-          <div class="speech-phonetic">${q.phonetic}</div>
         </div>
       `;
       container.appendChild(helper);
@@ -185,8 +184,8 @@ export class LessonEngine {
     targetBox.innerHTML = `
       <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
       <div class="lesson-speech-bubble">
-        <div style="font-size: 17px; font-weight: 800; color: #1F2937;">"${q.targetTranslation}"</div>
-        <div style="font-size: 12px; color: #6B7280; margin-top: 4px;">Toque nas palavras abaixo na ordem correta:</div>
+        <div style="font-size: 20px; font-weight: 800; color: #1F2937;">"${q.targetTranslation}"</div>
+        <div style="font-size: 20px; color: #6B7280; margin-top: 4px;">Toque nas palavras na ordem certa:</div>
       </div>
     `;
     container.appendChild(targetBox);
@@ -200,7 +199,16 @@ export class LessonEngine {
     const bank = document.createElement('div');
     bank.className = 'word-bank';
 
-    q.options.forEach((word) => {
+    // Só as palavras da frase, embaralhadas (sem palavras sobrando)
+    const words = [...q.correctOrder];
+    for (let t = 0; t < 10; t++) {
+      for (let i = words.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [words[i], words[j]] = [words[j], words[i]];
+      }
+      if (words.length < 2 || words.join(' ') !== q.correctOrder.join(' ')) break;
+    }
+    words.forEach((word) => {
       const chip = document.createElement('button');
       chip.className = 'word-chip';
       chip.textContent = word;
@@ -253,7 +261,7 @@ export class LessonEngine {
     const cards = [];
     q.pairs.forEach((pair, pairIdx) => {
       cards.push({ text: pair.xavante, pairId: pairIdx, type: 'x' });
-      cards.push({ text: pair.portuguese, pairId: pairIdx, type: 'p' });
+      cards.push({ text: pair.portuguese, image: pair.image, pairId: pairIdx, type: 'p' });
     });
 
     // Shuffle cards
@@ -265,7 +273,12 @@ export class LessonEngine {
     cards.forEach((card) => {
       const btn = document.createElement('button');
       btn.className = 'pair-card';
-      btn.textContent = card.text;
+      if (card.image) {
+        btn.classList.add('pair-card-image');
+        btn.innerHTML = `<img src="${card.image}" alt="${card.text}" />`;
+      } else {
+        btn.textContent = card.text;
+      }
 
       btn.addEventListener('click', () => {
         if (btn.classList.contains('pair-matched')) return;
@@ -337,13 +350,12 @@ export class LessonEngine {
       <img src="/assets/mascot.jpg" class="lesson-mascot-img" alt="Mascote" />
       <div class="lesson-speech-bubble">
         <div class="speech-word-highlight">
-          <span>${q.word}</span>
+          <span>Como fala:</span>
           <div style="display: flex; gap: 6px;">
             <button class="dict-audio-btn" id="btn-play-phonetic" title="Ouvir voz normal">🔊</button>
-            <button class="dict-audio-btn" id="btn-play-phonetic-slow" style="font-size: 14px;" title="Ouvir voz lenta">🐢</button>
+            <button class="dict-audio-btn" id="btn-play-phonetic-slow" style="font-size: 20px;" title="Ouvir voz lenta">🐢</button>
           </div>
         </div>
-        <div class="speech-phonetic">${q.phonetic} - "${q.meaning}"</div>
       </div>
     `;
     container.appendChild(helper);
@@ -404,6 +416,17 @@ export class LessonEngine {
     this.currentState = 'checked';
     this.el.feedbackBanner.classList.add('show');
 
+    // Acessibilidade: marca a opção escolhida (vermelho = erro, azul = acerto)
+    if (q.type === 'choice' || q.type === 'phonetic') {
+      const btns = this.el.exerciseArea.querySelectorAll('.choice-btn');
+      btns.forEach((b, i) => {
+        b.classList.remove('selected');
+        b.disabled = true;
+        if (i === q.correctIndex) b.classList.add('choice-correct');
+        else if (i === this.userSelection) b.classList.add('choice-wrong');
+      });
+    }
+
     if (isCorrect) {
       sounds.playCorrect();
       this.el.footer.className = 'lesson-footer state-correct';
@@ -421,7 +444,7 @@ export class LessonEngine {
 
       this.el.footer.className = 'lesson-footer state-wrong';
       this.el.feedbackIcon.textContent = '⚠️';
-      this.el.feedbackTitle.textContent = 'A resposta correta é:';
+      this.el.feedbackTitle.textContent = 'A resposta certa é:';
       this.el.feedbackDesc.textContent = `${explanation} ${q.culturalTip ? `(${q.culturalTip})` : ''}`;
       this.el.btnCheck.className = 'btn-action-3d btn-continue-wrong';
       this.el.btnCheck.textContent = 'Continuar';
@@ -429,7 +452,7 @@ export class LessonEngine {
 
       if (remainingHearts <= 0) {
         // No hearts left
-        this.el.feedbackDesc.textContent += ' Seus corações acabaram! Vá na aba Praticar para recarregar.';
+        this.el.feedbackDesc.textContent += ' Seus corações acabaram! Toque em Praticar para ganhar mais.';
       }
     }
   }
