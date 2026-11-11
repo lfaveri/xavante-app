@@ -1,5 +1,5 @@
 // sw.js - Service Worker para funcionamento 100% Offline
-const CACHE_NAME = 'xavante-app-cache-v3';
+const CACHE_NAME = 'xavante-app-cache-v4';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -8,6 +8,7 @@ const ASSETS_TO_CACHE = [
   'assets/app.js',
   'assets/index.css',
   'assets/web.js',
+  'assets/apple-touch-icon.png',
   'assets/abelha.png',
   'assets/aranha.png',
   'assets/bocaiuva.png',
