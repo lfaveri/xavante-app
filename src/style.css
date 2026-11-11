@@ -1384,3 +1384,24 @@ body, button, input, textarea, select { font-family: Arial, Helvetica, sans-seri
 .start-hero { background: linear-gradient(135deg, #E08A00, #F5B700); box-shadow: 0 8px 0 #A86400, 0 12px 24px rgba(224,138,0,.35); }
 .start-arrow { color: #E08A00; }
 .start-hint { color: #8A5200; }
+
+/* ==========================================================================
+   TELA CHEIA (computador / Chromebook): sem moldura de celular
+   ========================================================================== */
+body { background: #FAF7F2; display: block; }
+#app-viewport,
+#app-viewport { max-width: none !important; width: 100vw; height: 100vh; height: 100dvh; max-height: none !important;
+  border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+/* Conteúdo centralizado e com largura confortável em telas grandes */
+.top-bar, .view-container > *, .lesson-content, .victory-screen > *, .lesson-footer > * {
+  max-width: 900px; margin-left: auto; margin-right: auto; width: 100%;
+}
+.bottom-nav { justify-content: center; }
+.bottom-nav .nav-item { max-width: 220px; }
+@media (min-width: 900px) {
+  html { font-size: 24px; }
+  .question-prompt { font-size: 34px; }
+  .choice-btn { font-size: 28px; }
+}
+/* Vermelho só para erro: cor principal passa a ser marrom terra */
+:root { --primary-urucum: #8D5524; }
