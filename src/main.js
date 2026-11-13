@@ -318,7 +318,7 @@ function renderDictionary() {
   countBar.style.marginBottom = '6px';
   countBar.innerHTML = `
     <span>${filtered.length} palavras encontradas</span>
-    <span>Base Webonary / SIL</span>
+    <span>Dicionário Salesiano (Lachnitt, 1987)</span>
   `;
   el.dictCardsList.appendChild(countBar);
 
@@ -331,7 +331,7 @@ function renderDictionary() {
       <div class="dict-card-top">
         <div>
           <div class="dict-xavante">${item.xavante}</div>
-          <div class="dict-phonetic">Pronúncia: ${item.phonetic} ${item.pos ? `• ${item.pos}` : ''}</div>
+          ${item.pos ? `<div class="dict-phonetic">${item.pos}</div>` : ''}
         </div>
         <div style="display: flex; gap: 6px;">
           <button class="dict-audio-btn btn-audio-normal" title="Ouvir pronúncia">🔊</button>
@@ -339,9 +339,9 @@ function renderDictionary() {
         </div>
       </div>
       <div class="dict-portuguese">${item.portuguese}</div>
-      <div class="dict-example">${item.example}</div>
-      <div style="font-size: 12px; color: #6B7280; line-height: 1.35; margin-top: 2px;">
-        💡 <strong>Contexto:</strong> ${item.note}
+      ${item.related ? `<div class="dict-example">Forma relacionada: ${item.related.slice(2)}</div>` : ''}
+      <div style="font-size: 14px; color: #6B7280; line-height: 1.35; margin-top: 2px;">
+        📖 <strong>No livro:</strong> ${item.example}
       </div>
     `;
 
