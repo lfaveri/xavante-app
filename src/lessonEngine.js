@@ -113,7 +113,7 @@ export class LessonEngine {
       const helper = document.createElement('div');
       helper.className = 'lesson-mascot-helper';
       // O som fala a PERGUNTA, nunca a resposta.
-      // Se a pergunta tem uma palavra Xavante entre aspas ("O que quer dizer 'Tô uptabi'?"), fala essa palavra.
+      // Se a pergunta tem uma palavra Xavante entre aspas ("O que quer dizer 'Wẽ uptabi di'?"), fala essa palavra.
       // Se a resposta é em Xavante ("Como fala 'Tudo bem?' em Xavante?"), fala a pergunta inteira.
       const quoted = (q.prompt.match(/"([^"]+)"/) || [])[1] || '';
       const answerIsXavante = /como fala|chamam|você fala|a gente fala/i.test(q.prompt);
@@ -439,7 +439,7 @@ export class LessonEngine {
       sounds.playCorrect();
       this.el.footer.className = 'lesson-footer state-correct';
       this.el.feedbackIcon.textContent = '🎉';
-      this.el.feedbackTitle.textContent = 'Tô uptabi! Muito bem!';
+      this.el.feedbackTitle.textContent = 'Wẽ uptabi di! Muito bem!';
       this.el.feedbackDesc.textContent = q.culturalTip || 'Você acertou em cheio!';
       this.el.btnCheck.className = 'btn-action-3d btn-continue-success';
       this.el.btnCheck.textContent = 'Continuar';
