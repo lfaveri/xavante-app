@@ -169,122 +169,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/ema.png",
+            "emoji": "🐆",
             "options": [
-              "Wãrãhöbö",
-              "Padi",
-              "Mã",
-              "Dapara"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/tatu.png",
-            "options": [
-              "Wãrãhöbö",
-              "Idzo'úhu",
-              "Uba",
-              "Powawe"
+              "hu",
+              "tsi'a",
+              "'rãti",
+              "'ru"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/lagartixa.png",
+            "emoji": "🐍",
             "options": [
-              "Auhöiré",
-              "Apaire",
-              "Tsibi",
-              "Padi"
-            ],
-            "correctIndex": 1
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/cachorro.png",
-            "options": [
-              "Bödo",
-              "A'odo",
-              "Ma'u",
-              "Waptsã"
+              "watsi",
+              "umredzeire",
+              "udzöne",
+              "wahi"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/porco.png",
+            "emoji": "🐟",
             "options": [
-              "Idzo'úhu",
-              "Dató / Datõmõ",
-              "Apaire",
-              "Uhobö"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/gato.png",
-            "options": [
-              "Tsiwi",
-              "Uhobö",
-              "Dapo're",
-              "Idzo'úhu"
+              "pe'a",
+              "ubu",
+              "umnhi'ã",
+              "udzö"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/aranha.png",
+            "emoji": "🐔",
             "options": [
-              "Auhöiré",
-              "Tsibi",
-              "Powawe",
-              "Idzo'úhu"
+              "'rupo'rere",
+              "tsi'a",
+              "uba're",
+              "utu'u"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/ouvido.png",
+            "emoji": "🥚",
             "options": [
-              "Dapo're",
-              "Idzo'úhu",
-              "Mã",
-              "Bödo"
-            ],
-            "correctIndex": 0
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/olho.png",
-            "options": [
-              "Uhobö",
-              "Piró'óre",
-              "Dató / Datõmõ",
-              "Mã"
+              "wãtãwã",
+              "tã",
+              "tsi'are",
+              "pe'a"
             ],
             "correctIndex": 2
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/tamandua.png",
+            "emoji": "🐒",
             "options": [
-              "Dapo're",
-              "Padi",
-              "Auhöiré",
-              "Du"
+              "uba're",
+              "romnhi",
+              "'ro'o",
+              "tsi'are"
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🐀",
+            "options": [
+              "norõ'rã",
+              "tsiwawẽ",
+              "'ru",
+              "'rãti"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🐇",
+            "options": [
+              "ubu",
+              "uhi",
+              "'rãti",
+              "'rupo'rere"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🐎",
+            "options": [
+              "awaru",
+              "utu'u",
+              "wãtãwã",
+              "waihörö"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🐸",
+            "options": [
+              "uti",
+              "wa'ru",
+              "tsa'a",
+              "wahi"
+            ],
+            "correctIndex": 0
           }
         ]
       },
@@ -297,122 +297,506 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/sol.png",
+            "emoji": "🐢",
             "options": [
-              "Ma'u",
-              "Dató / Datõmõ",
-              "Auhöiré",
-              "Bödo"
+              "tsiwawẽ",
+              "tã",
+              "u'ã",
+              "hu"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🦜",
+            "options": [
+              "tsa'a",
+              "waihörö",
+              "romnhi",
+              "ubu"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🦉",
+            "options": [
+              "ẽne",
+              "hö'a",
+              "tsiwawẽ",
+              "tsa'a"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🕊️",
+            "options": [
+              "utu'u",
+              "hö'a",
+              "tãiwaipo",
+              "romnhi"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🦅",
+            "options": [
+              "tsa'a",
+              "tsiwawẽ",
+              "'rupo'rere",
+              "hö'a"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🪰",
+            "options": [
+              "robduri",
+              "hötöra",
+              "'rupo'rere",
+              "ubu"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/grama.png",
+            "emoji": "🦟",
             "options": [
-              "Du",
-              "Auhöiré",
-              "A'odo",
-              "Uhobö"
+              "hunhi'a",
+              "tã",
+              "wãtãwã",
+              "'ru"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/bocaiuva.png",
+            "emoji": "🦗",
             "options": [
-              "Bödo",
-              "Powawe",
-              "A'odo",
-              "Uhobö"
+              "udzö",
+              "rob'rãpré",
+              "uhi",
+              "'ridi"
             ],
-            "correctIndex": 2
+            "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/ponte.png",
+            "emoji": "🐜",
             "options": [
-              "Ma'u",
-              "Piró'óre",
-              "Uba",
-              "A'odo"
+              "'rupo'rere",
+              "ubu",
+              "norõ'rã",
+              "'rãti"
             ],
-            "correctIndex": 2
+            "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "image": "assets/vaca.png",
+            "emoji": "🐌",
             "options": [
-              "Powawe",
-              "Apaire",
-              "Auhöiré",
-              "Bödo"
-            ],
-            "correctIndex": 0
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/jacare.png",
-            "options": [
-              "Dapo're",
-              "Uba",
-              "Auhöiré",
-              "Dapara"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/pe.png",
-            "options": [
-              "Uhobö",
-              "Apaire",
-              "Dapara",
-              "Ma'u"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/borboleta.png",
-            "options": [
-              "Apaire",
-              "Tsibi",
-              "Piró'óre",
-              "Bödo"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/abelha.png",
-            "options": [
-              "Idzo'úhu",
-              "Uba",
-              "Waptsã",
-              "Tsiwi"
-            ],
-            "correctIndex": 0
-          },
-          {
-            "type": "choice",
-            "prompt": "Que palavra é esta figura?",
-            "image": "assets/pato.png",
-            "options": [
-              "Auhöiré",
-              "Ma'u",
-              "Wãrãhöbö",
-              "Dapo're"
+              "hu",
+              "wãtãwã",
+              "ubu",
+              "'ro'o"
             ],
             "correctIndex": 1
+          }
+        ]
+      },
+      {
+        "id": "e2_l3",
+        "title": "Figura e Palavra 3",
+        "subtitle": "Imagem → Xavante",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌙",
+            "options": [
+              "wa'ru",
+              "udzö",
+              "tsi'are",
+              "a'amo"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "⭐",
+            "options": [
+              "watsi",
+              "robduri",
+              "tãiwaptsa",
+              "tsiwawẽ"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌧️",
+            "options": [
+              "tsi'a",
+              "tã",
+              "awaru",
+              "wãtãwã"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🔥",
+            "options": [
+              "hunhi'a",
+              "umnhi'ã",
+              "'ru",
+              "udzö"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🪨",
+            "options": [
+              "ẽne",
+              "watsi",
+              "robduri",
+              "tãiwaptsa"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "⚡",
+            "options": [
+              "'ro'o",
+              "watsi",
+              "tãiwaptsa",
+              "atsaro"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌈",
+            "options": [
+              "ropĩ",
+              "awaru",
+              "tãiwaipo",
+              "utu'u"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌊",
+            "options": [
+              "öporé",
+              "tsa'a",
+              "tsiwawẽ",
+              "tsib'édzé"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "☁️",
+            "options": [
+              "höiwa nhirõno",
+              "öporé",
+              "tãiwaptsa",
+              "uti"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "⛰️",
+            "options": [
+              "umredzeire",
+              "'rãti",
+              "'rupo'rere",
+              "tsa'a"
+            ],
+            "correctIndex": 3
+          }
+        ]
+      },
+      {
+        "id": "e2_l4",
+        "title": "Figura e Palavra 4",
+        "subtitle": "Imagem → Xavante",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌽",
+            "options": [
+              "waihörö",
+              "'ridi",
+              "hunhi'a",
+              "wa'ru"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍌",
+            "options": [
+              "pa'o",
+              "ropĩ",
+              "uhi",
+              "tsib'édzé"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍚",
+            "options": [
+              "atsaro",
+              "u'ã",
+              "ẽne",
+              "wãtãwã"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🫘",
+            "options": [
+              "tãiwaptsa",
+              "uba're",
+              "atsaro",
+              "uhi"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🎃",
+            "options": [
+              "ubu",
+              "udzöne",
+              "waihörö",
+              "'ru"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍉",
+            "options": [
+              "atsaro",
+              "'ro'o",
+              "umredzeire",
+              "wetsu"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍎",
+            "options": [
+              "tãiwaptsa",
+              "pa'o",
+              "rob'rãpré",
+              "öporé"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🌳",
+            "options": [
+              "wede",
+              "'ri",
+              "rob'rãpré",
+              "tãiwaipo"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍃",
+            "options": [
+              "'ru",
+              "a'amo",
+              "wetsu",
+              "öporé"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍯",
+            "options": [
+              "tsib'édzé",
+              "tã",
+              "'ru",
+              "ropĩ"
+            ],
+            "correctIndex": 3
+          }
+        ]
+      },
+      {
+        "id": "e2_l5",
+        "title": "Figura e Palavra 5",
+        "subtitle": "Imagem → Xavante",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🍞",
+            "options": [
+              "norõ'rã",
+              "tsib'édzé",
+              "udzöne",
+              "pahõ"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🥩",
+            "options": [
+              "'ru",
+              "romnhi",
+              "tã",
+              "u'ã"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🥥",
+            "options": [
+              "uba're",
+              "u'ã",
+              "awaru",
+              "norõ'rã"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🏠",
+            "options": [
+              "'ri",
+              "u'ã",
+              "romnhi",
+              "'ru"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🛶",
+            "options": [
+              "uba're",
+              "tsiwawẽ",
+              "tãiwaipo",
+              "'ro'o"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🔪",
+            "options": [
+              "hötöra",
+              "tsib'édzé",
+              "udzö",
+              "wãtãwã"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🪓",
+            "options": [
+              "tsib'édzé",
+              "ropĩ",
+              "hötöra",
+              "ẽne"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🏹",
+            "options": [
+              "wa'ru",
+              "umnhi'ã",
+              "'rupo'rere",
+              "tãiwaptsa"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "🚗",
+            "options": [
+              "norõ'rã",
+              "robduri",
+              "udzöne",
+              "a'amo"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Que palavra é esta figura?",
+            "emoji": "✈️",
+            "options": [
+              "höiwi",
+              "tsiwawẽ",
+              "'rãti",
+              "romnhi"
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -429,7 +813,7 @@ export const UNITS = [
     "levels": [
       {
         "id": "e3_l1",
-        "title": "Xavante e Português 1",
+        "title": "O Corpo",
         "subtitle": "Xavante → Português",
         "xpReward": 10,
         "questions": [
@@ -438,20 +822,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Apaire",
-                "portuguese": "Lagartixa"
+                "xavante": "da'rã",
+                "portuguese": "Cabeça"
               },
               {
-                "xavante": "Padi",
-                "portuguese": "Tamanduá"
+                "xavante": "dadzadawa",
+                "portuguese": "Boca"
               },
               {
-                "xavante": "Tsiwi",
-                "portuguese": "Gato"
+                "xavante": "danhitsi're",
+                "portuguese": "Nariz"
               },
               {
-                "xavante": "Tsibi",
-                "portuguese": "Aranha"
+                "xavante": "danhoto",
+                "portuguese": "Língua"
               }
             ]
           },
@@ -460,20 +844,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Uhobö",
-                "portuguese": "Porco"
+                "xavante": "dadzéré",
+                "portuguese": "Cabelo"
               },
               {
-                "xavante": "Padi",
-                "portuguese": "Tamanduá"
+                "xavante": "danhib'rada",
+                "portuguese": "Mão"
               },
               {
-                "xavante": "Mã",
-                "portuguese": "Ema"
+                "xavante": "danhipto",
+                "portuguese": "Dedo"
               },
               {
-                "xavante": "Tsibi",
-                "portuguese": "Aranha"
+                "xavante": "dadi",
+                "portuguese": "Barriga"
               }
             ]
           },
@@ -482,20 +866,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Apaire",
-                "portuguese": "Lagartixa"
+                "xavante": "dahi",
+                "portuguese": "Perna, osso"
               },
               {
-                "xavante": "Wãrãhöbö",
-                "portuguese": "Tatu"
+                "xavante": "danho'udu",
+                "portuguese": "Peito"
               },
               {
-                "xavante": "Waptsã",
-                "portuguese": "Cachorro"
+                "xavante": "da'wa",
+                "portuguese": "Dente"
               },
               {
-                "xavante": "Dapo're",
-                "portuguese": "Ouvido"
+                "xavante": "daba",
+                "portuguese": "Costas"
               }
             ]
           },
@@ -504,20 +888,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Tsibi",
-                "portuguese": "Aranha"
+                "xavante": "dadza",
+                "portuguese": "Coxa"
               },
               {
-                "xavante": "Dapo're",
-                "portuguese": "Ouvido"
+                "xavante": "dapaihi",
+                "portuguese": "Braço"
               },
               {
-                "xavante": "Dató / Datõmõ",
-                "portuguese": "Olho"
+                "xavante": "dahö",
+                "portuguese": "Pele"
               },
               {
-                "xavante": "Padi",
-                "portuguese": "Tamanduá"
+                "xavante": "dawapru",
+                "portuguese": "Sangue"
               }
             ]
           }
@@ -525,7 +909,7 @@ export const UNITS = [
       },
       {
         "id": "e3_l2",
-        "title": "Xavante e Português 2",
+        "title": "Gente e Família",
         "subtitle": "Xavante → Português",
         "xpReward": 10,
         "questions": [
@@ -534,20 +918,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "A'odo",
-                "portuguese": "Bocaiúva"
+                "xavante": "aibö",
+                "portuguese": "Homem"
               },
               {
-                "xavante": "Powawe",
-                "portuguese": "Vaca"
+                "xavante": "pi'õ",
+                "portuguese": "Mulher"
               },
               {
-                "xavante": "Auhöiré",
-                "portuguese": "Jacaré"
+                "xavante": "ai'uté",
+                "portuguese": "Criança"
               },
               {
-                "xavante": "Piró'óre",
-                "portuguese": "Borboleta"
+                "xavante": "adzarudu",
+                "portuguese": "Moça"
               }
             ]
           },
@@ -556,20 +940,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Idzo'úhu",
-                "portuguese": "Abelha"
+                "xavante": "ba'õno",
+                "portuguese": "Menina"
               },
               {
-                "xavante": "Uba",
-                "portuguese": "Ponte"
+                "xavante": "'watébrémi",
+                "portuguese": "Menino"
               },
               {
-                "xavante": "A'odo",
-                "portuguese": "Bocaiúva"
+                "xavante": "a'uwẽ",
+                "portuguese": "Gente, pessoa"
               },
               {
-                "xavante": "Du",
-                "portuguese": "Grama / Capim"
+                "xavante": "damama",
+                "portuguese": "Pai"
               }
             ]
           },
@@ -578,20 +962,20 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Idzo'úhu",
-                "portuguese": "Abelha"
+                "xavante": "dana",
+                "portuguese": "Mãe"
               },
               {
-                "xavante": "Ma'u",
-                "portuguese": "Pato"
+                "xavante": "danhihudu",
+                "portuguese": "Neto"
               },
               {
-                "xavante": "Powawe",
-                "portuguese": "Vaca"
+                "xavante": "dadub'rada",
+                "portuguese": "Irmão mais velho"
               },
               {
-                "xavante": "Dapara",
-                "portuguese": "Pé"
+                "xavante": "damro",
+                "portuguese": "Esposo, esposa"
               }
             ]
           },
@@ -600,20 +984,308 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Dapara",
-                "portuguese": "Pé"
+                "xavante": "da'ra",
+                "portuguese": "Filho, filha"
               },
               {
-                "xavante": "Piró'óre",
-                "portuguese": "Borboleta"
+                "xavante": "ai'utépré",
+                "portuguese": "Bebê"
               },
               {
-                "xavante": "Idzo'úhu",
-                "portuguese": "Abelha"
+                "xavante": "wapté",
+                "portuguese": "Jovem não iniciado"
               },
               {
-                "xavante": "Ma'u",
-                "portuguese": "Pato"
+                "xavante": "waradzu",
+                "portuguese": "Não-indígena"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e3_l3",
+        "title": "A Natureza",
+        "subtitle": "Xavante → Português",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "ti'a",
+                "portuguese": "Chão, terra"
+              },
+              {
+                "xavante": "höiwa",
+                "portuguese": "Céu"
+              },
+              {
+                "xavante": "marã",
+                "portuguese": "Mata"
+              },
+              {
+                "xavante": "dzara",
+                "portuguese": "Córrego"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "tsupara",
+                "portuguese": "Areia"
+              },
+              {
+                "xavante": "dzé'a",
+                "portuguese": "Barro"
+              },
+              {
+                "xavante": "rowa'u",
+                "portuguese": "Vento"
+              },
+              {
+                "xavante": "ö",
+                "portuguese": "Água"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "öwawẽ",
+                "portuguese": "Rio grande"
+              },
+              {
+                "xavante": "mara",
+                "portuguese": "Noite"
+              },
+              {
+                "xavante": "rowa'a",
+                "portuguese": "Dia"
+              },
+              {
+                "xavante": "wahu",
+                "portuguese": "Ano"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "hö",
+                "portuguese": "Frio"
+              },
+              {
+                "xavante": "rowa'ro",
+                "portuguese": "Calor"
+              },
+              {
+                "xavante": "ötsipe",
+                "portuguese": "Ilha"
+              },
+              {
+                "xavante": "u",
+                "portuguese": "Lago"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e3_l4",
+        "title": "A Casa e as Coisas",
+        "subtitle": "Xavante → Português",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "'ridawa",
+                "portuguese": "Porta"
+              },
+              {
+                "xavante": "'ridzadadzöri",
+                "portuguese": "Janela"
+              },
+              {
+                "xavante": "dzadzahö",
+                "portuguese": "Roupa"
+              },
+              {
+                "xavante": "dapara'udza",
+                "portuguese": "Sapato"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "tsi'õno",
+                "portuguese": "Cesto xavante"
+              },
+              {
+                "xavante": "pidza",
+                "portuguese": "Panela"
+              },
+              {
+                "xavante": "hötsidzé",
+                "portuguese": "Copo"
+              },
+              {
+                "xavante": "wededza",
+                "portuguese": "Mesa"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "datsimatsitsidzé",
+                "portuguese": "Cadeira"
+              },
+              {
+                "xavante": "waptö",
+                "portuguese": "Cama, esteira"
+              },
+              {
+                "xavante": "uibro",
+                "portuguese": "Borduna"
+              },
+              {
+                "xavante": "wairo",
+                "portuguese": "Cocar"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "dzö",
+                "portuguese": "Chocalho"
+              },
+              {
+                "xavante": "mi",
+                "portuguese": "Lenha"
+              },
+              {
+                "xavante": "unhamare",
+                "portuguese": "Fósforo"
+              },
+              {
+                "xavante": "romnhoré nhihödö",
+                "portuguese": "Livro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e3_l5",
+        "title": "Comida e Plantas",
+        "subtitle": "Xavante → Português",
+        "xpReward": 10,
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "upa",
+                "portuguese": "Mandioca"
+              },
+              {
+                "xavante": "mo'õni",
+                "portuguese": "Cará"
+              },
+              {
+                "xavante": "wab'ru'rã",
+                "portuguese": "Batata"
+              },
+              {
+                "xavante": "abare",
+                "portuguese": "Piqui"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "a'õ",
+                "portuguese": "Jatobá"
+              },
+              {
+                "xavante": "uiwede",
+                "portuguese": "Buriti"
+              },
+              {
+                "xavante": "abadzi",
+                "portuguese": "Algodão"
+              },
+              {
+                "xavante": "budze",
+                "portuguese": "Cana"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "adze",
+                "portuguese": "Açúcar"
+              },
+              {
+                "xavante": "datsaiwarĩrĩdzé",
+                "portuguese": "Sal"
+              },
+              {
+                "xavante": "romhöiwa'u",
+                "portuguese": "Leite"
+              },
+              {
+                "xavante": "tsada'ré",
+                "portuguese": "Bolo de milho"
+              }
+            ]
+          },
+          {
+            "type": "match",
+            "prompt": "Junte cada palavra com o que ela quer dizer:",
+            "pairs": [
+              {
+                "xavante": "nodzö",
+                "portuguese": "Milho xavante"
+              },
+              {
+                "xavante": "wedenhamadzadzu",
+                "portuguese": "Café"
+              },
+              {
+                "xavante": "tsé",
+                "portuguese": "Macaúba"
+              },
+              {
+                "xavante": "mra",
+                "portuguese": "Comida"
               }
             ]
           }
@@ -632,257 +1304,641 @@ export const UNITS = [
     "levels": [
       {
         "id": "e4_l1",
-        "title": "Ouvir e Ler 1",
+        "title": "Fazer 1",
         "subtitle": "Som Xavante → Xavante escrito",
         "xpReward": 15,
         "questions": [
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Mã",
+            "audio": "romhuri",
             "options": [
-              "Ma'u",
-              "Piró'óre",
-              "Uba",
-              "Mã"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Wãrãhöbö",
-            "options": [
-              "Mã",
-              "Ma'u",
-              "Wãrãhöbö",
-              "Idzo'úhu"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Apaire",
-            "options": [
-              "Apaire",
-              "Uba",
-              "Tsiwi",
-              "Dapo're"
-            ],
-            "correctIndex": 0
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Waptsã",
-            "options": [
-              "Tsiwi",
-              "Waptsã",
-              "Idzo'úhu",
-              "Dapara"
+              "uipra",
+              "romhuri",
+              "wamro",
+              "wapari"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Uhobö",
+            "audio": "wapari",
             "options": [
-              "Uba",
-              "Powawe",
-              "Dapo're",
-              "Uhobö"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Tsiwi",
-            "options": [
-              "Tsiwi",
-              "Dapo're",
-              "A'odo",
-              "Du"
+              "wapari",
+              "wamro",
+              "uipra",
+              "tsãmri"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Tsibi",
+            "audio": "tsãmri",
             "options": [
-              "Tsiwi",
-              "Piró'óre",
-              "Ma'u",
-              "Tsibi"
+              "rowaihu",
+              "tsãmri",
+              "daribi",
+              "wapari"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "nharĩ",
+            "options": [
+              "uipra",
+              "romhuri",
+              "daribi",
+              "nharĩ"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Dapo're",
+            "audio": "praba",
             "options": [
-              "Dapo're",
-              "Mã",
-              "Powawe",
-              "Bödo"
+              "tsãmri",
+              "praba",
+              "wapari",
+              "uipra"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "daribi",
+            "options": [
+              "praba",
+              "wamro",
+              "romhuri",
+              "daribi"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "wamro",
+            "options": [
+              "daribi",
+              "uptsõ",
+              "nharĩ",
+              "wamro"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "uptsõ",
+            "options": [
+              "romhuri",
+              "uptsõ",
+              "praba",
+              "uipra"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "uipra",
+            "options": [
+              "nharĩ",
+              "wamro",
+              "uipra",
+              "daribi"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "rowaihu",
+            "options": [
+              "rowaihu",
+              "wamro",
+              "nharĩ",
+              "praba"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      {
+        "id": "e4_l2",
+        "title": "Fazer 2",
+        "subtitle": "Som Xavante → Xavante escrito",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "romnhoré",
+            "options": [
+              "waihu'u",
+              "romnhoré",
+              "rotsa'rada",
+              "wapto"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "waihu'u",
+            "options": [
+              "wapto",
+              "tsimani",
+              "romnhoré",
+              "waihu'u"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "rotsawẽrẽ",
+            "options": [
+              "tsimani",
+              "wapto",
+              "waihu'u",
+              "rotsawẽrẽ"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "rotsa'rada",
+            "options": [
+              "tsõmri",
+              "waptẽrẽ",
+              "rotsa'rada",
+              "roptata"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsõmri",
+            "options": [
+              "rotsa'rada",
+              "rotsawẽrẽ",
+              "tsõmri",
+              "wapto"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "upari",
+            "options": [
+              "upari",
+              "wapto",
+              "romnhoré",
+              "waptẽrẽ"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Dató / Datõmõ",
+            "audio": "waptẽrẽ",
             "options": [
-              "Dapara",
-              "Ma'u",
-              "Uba",
-              "Dató / Datõmõ"
+              "waptẽrẽ",
+              "tsimani",
+              "roptata",
+              "rotsa'rada"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "wapto",
+            "options": [
+              "wapto",
+              "rotsa'rada",
+              "rotsawẽrẽ",
+              "waihu'u"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsimani",
+            "options": [
+              "rotsawẽrẽ",
+              "tsimani",
+              "upari",
+              "rotsa'rada"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "roptata",
+            "options": [
+              "rotsa'rada",
+              "upari",
+              "roptata",
+              "tsõmri"
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      {
+        "id": "e4_l3",
+        "title": "Fazer 3",
+        "subtitle": "Som Xavante → Xavante escrito",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "rob're",
+            "options": [
+              "tsitsi",
+              "rob're",
+              "wadzöri",
+              "ui'éré"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "wadzöri",
+            "options": [
+              "rob're",
+              "tsidö",
+              "wadzöri",
+              "udzuri"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsipi",
+            "options": [
+              "wadzöri",
+              "tsidö",
+              "rob're",
+              "tsipi"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Padi",
+            "audio": "tsõ'ẽ",
             "options": [
-              "Tsibi",
-              "Padi",
-              "Uhobö",
-              "Dapara"
+              "udzuri",
+              "tsõdzi",
+              "rob're",
+              "tsõ'ẽ"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "ui'éré",
+            "options": [
+              "udzuri",
+              "tsidö",
+              "tsipi",
+              "ui'éré"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "udzuri",
+            "options": [
+              "tsu",
+              "udzuri",
+              "tsidö",
+              "tsipi"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsidö",
+            "options": [
+              "tsõdzi",
+              "tsidö",
+              "wadzöri",
+              "rob're"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsõdzi",
+            "options": [
+              "tsu",
+              "ui'éré",
+              "tsõdzi",
+              "tsidö"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsitsi",
+            "options": [
+              "tsitsi",
+              "wadzöri",
+              "tsidö",
+              "tsõdzi"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsu",
+            "options": [
+              "tsitsi",
+              "tsu",
+              "tsidö",
+              "wadzöri"
             ],
             "correctIndex": 1
           }
         ]
       },
       {
-        "id": "e4_l2",
-        "title": "Ouvir e Ler 2",
+        "id": "e4_l4",
+        "title": "Como é?",
         "subtitle": "Som Xavante → Xavante escrito",
         "xpReward": 15,
         "questions": [
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Bödo",
+            "audio": "tsa'ẽne",
             "options": [
-              "Dapo're",
-              "Bödo",
-              "Dató / Datõmõ",
-              "Uba"
+              "tse",
+              "tsa'ẽne",
+              "'rudu",
+              "tsapo"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Du",
+            "audio": "tsapo",
             "options": [
-              "Uhobö",
-              "Bödo",
-              "Du",
-              "Padi"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "A'odo",
-            "options": [
-              "Wãrãhöbö",
-              "Mã",
-              "A'odo",
-              "Auhöiré"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Uba",
-            "options": [
-              "Waptsã",
-              "Uba",
-              "Dapara",
-              "Piró'óre"
-            ],
-            "correctIndex": 1
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Powawe",
-            "options": [
-              "Mã",
-              "Uba",
-              "Wãrãhöbö",
-              "Powawe"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Auhöiré",
-            "options": [
-              "Tsiwi",
-              "Bödo",
-              "Auhöiré",
-              "Piró'óre"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Dapara",
-            "options": [
-              "Mã",
-              "Apaire",
-              "A'odo",
-              "Dapara"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Piró'óre",
-            "options": [
-              "Dapara",
-              "Powawe",
-              "Bödo",
-              "Piró'óre"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Idzo'úhu",
-            "options": [
-              "Idzo'úhu",
-              "Dapo're",
-              "Bödo",
-              "Padi"
+              "tsapo",
+              "pire",
+              "'rudu",
+              "wapu"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Escute e toque na palavra que você ouviu:",
-            "audio": "Ma'u",
+            "audio": "pire",
             "options": [
-              "Piró'óre",
-              "Dapo're",
-              "Ma'u",
-              "Du"
+              "wapti",
+              "'ré",
+              "tsapo",
+              "pire"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "wapu",
+            "options": [
+              "'rudu",
+              "tede",
+              "pire",
+              "wapu"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tede",
+            "options": [
+              "'rudu",
+              "tsapo",
+              "tsa'ẽne",
+              "tede"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "'ré",
+            "options": [
+              "tsapo",
+              "pire",
+              "'ré",
+              "wapu"
             ],
             "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "wapti",
+            "options": [
+              "tsa'ẽne",
+              "pire",
+              "wapti",
+              "tsapo"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "pa",
+            "options": [
+              "pire",
+              "pa",
+              "tsa'ẽne",
+              "tede"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "'rudu",
+            "options": [
+              "'ré",
+              "wapu",
+              "'rudu",
+              "tse"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tse",
+            "options": [
+              "tsa'ẽne",
+              "tsapo",
+              "tse",
+              "'ré"
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      {
+        "id": "e4_l5",
+        "title": "Cores e Números",
+        "subtitle": "Som Xavante → Xavante escrito",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "pré",
+            "options": [
+              "'rãdö",
+              "tsi'umdatõ",
+              "pré",
+              "mitsi"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "'rãdö",
+            "options": [
+              "'rãdö",
+              "pré",
+              "maparane",
+              "mitsi"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "rã",
+            "options": [
+              "rã",
+              "udzé",
+              "maparane",
+              "ĩmrotõ"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "udzé",
+            "options": [
+              "rã",
+              "tsi'umdatõ",
+              "dzadzu",
+              "udzé"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "pré'a",
+            "options": [
+              "pré",
+              "ĩmrotõ",
+              "rã",
+              "pré'a"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "dzadzu",
+            "options": [
+              "pré",
+              "tsi'umdatõ",
+              "ĩmrotõ",
+              "dzadzu"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "mitsi",
+            "options": [
+              "ĩmrotõ",
+              "rã",
+              "mitsi",
+              "maparane"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "maparane",
+            "options": [
+              "ĩmrotõ",
+              "tsi'umdatõ",
+              "maparane",
+              "pré"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "tsi'umdatõ",
+            "options": [
+              "pré",
+              "mitsi",
+              "pré'a",
+              "tsi'umdatõ"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute e toque na palavra que você ouviu:",
+            "audio": "ĩmrotõ",
+            "options": [
+              "ĩmrotõ",
+              "mitsi",
+              "rã",
+              "udzé"
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -899,257 +1955,641 @@ export const UNITS = [
     "levels": [
       {
         "id": "e5_l1",
-        "title": "Ouvir e Entender 1",
+        "title": "Bichos do Mato",
         "subtitle": "Som Xavante → Português",
         "xpReward": 15,
         "questions": [
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Mã",
+            "audio": "uhödö",
             "options": [
-              "Lagartixa",
-              "Grama / Capim",
-              "Pé",
-              "Ema"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Wãrãhöbö",
-            "options": [
-              "Lagartixa",
-              "Tatu",
-              "Grama / Capim",
-              "Tamanduá"
-            ],
-            "correctIndex": 1
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Apaire",
-            "options": [
-              "Olho",
-              "Cachorro",
-              "Lagartixa",
-              "Pé"
+              "Cascavel",
+              "Paca",
+              "Anta",
+              "Cotia"
             ],
             "correctIndex": 2
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Waptsã",
+            "audio": "ubdö",
             "options": [
-              "Lagartixa",
-              "Olho",
-              "Cachorro",
-              "Ponte"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Uhobö",
-            "options": [
-              "Jacaré",
-              "Ouvido",
-              "Grama / Capim",
-              "Porco"
+              "Onça parda",
+              "Paca",
+              "Queixada",
+              "Capivara"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Tsiwi",
+            "audio": "aihö",
             "options": [
-              "Lagartixa",
-              "Gato",
-              "Tamanduá",
-              "Ponte"
+              "Paca",
+              "Veado campeiro",
+              "Cotia",
+              "Queixada"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Tsibi",
+            "audio": "atsada",
             "options": [
-              "Vaca",
-              "Bocaiúva",
-              "Gato",
-              "Aranha"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Dapo're",
-            "options": [
-              "Tamanduá",
-              "Ouvido",
-              "Porco",
-              "Cachorro"
-            ],
-            "correctIndex": 1
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Dató / Datõmõ",
-            "options": [
-              "Ponte",
-              "Jacaré",
-              "Olho",
-              "Tatu"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Padi",
-            "options": [
-              "Vaca",
-              "Tamanduá",
-              "Borboleta",
-              "Gato"
-            ],
-            "correctIndex": 1
-          }
-        ]
-      },
-      {
-        "id": "e5_l2",
-        "title": "Ouvir e Entender 2",
-        "subtitle": "Som Xavante → Português",
-        "xpReward": 15,
-        "questions": [
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Bödo",
-            "options": [
-              "Sol",
-              "Jacaré",
-              "Pé",
-              "Ouvido"
+              "Onça parda",
+              "Quati",
+              "Cotia",
+              "Sucuri"
             ],
             "correctIndex": 0
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Du",
+            "audio": "uhö",
             "options": [
-              "Ema",
-              "Lagartixa",
-              "Grama / Capim",
-              "Ouvido"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "A'odo",
-            "options": [
-              "Sol",
-              "Tamanduá",
-              "Porco",
-              "Bocaiúva"
+              "Onça parda",
+              "Quati",
+              "Sucuri",
+              "Queixada"
             ],
             "correctIndex": 3
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Uba",
+            "audio": "dzöhuru",
             "options": [
-              "Grama / Capim",
-              "Pé",
-              "Ponte",
-              "Cachorro"
+              "Capivara",
+              "Cascavel",
+              "Cotia",
+              "Paca"
             ],
             "correctIndex": 2
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Powawe",
+            "audio": "'rawa",
             "options": [
-              "Gato",
-              "Vaca",
-              "Porco",
-              "Cachorro"
+              "Cascavel",
+              "Anta",
+              "Cotia",
+              "Paca"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "wa'õ",
+            "options": [
+              "Sucuri",
+              "Anta",
+              "Quati",
+              "Capivara"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "wanha'u",
+            "options": [
+              "Queixada",
+              "Veado campeiro",
+              "Quati",
+              "Sucuri"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsidzö",
+            "options": [
+              "Cascavel",
+              "Quati",
+              "Capivara",
+              "Paca"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      {
+        "id": "e5_l2",
+        "title": "Aves",
+        "subtitle": "Som Xavante → Português",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "'rada",
+            "options": [
+              "Arara vermelha",
+              "Garça",
+              "Bem-te-vi",
+              "Perdiz"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsõté",
+            "options": [
+              "Arara vermelha",
+              "Gavião",
+              "Arara amarela",
+              "Beija-flor"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsi'u",
+            "options": [
+              "Arara amarela",
+              "Gavião",
+              "Perdiz",
+              "Arara vermelha"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Auhöiré",
+            "audio": "tsipahudu",
             "options": [
-              "Abelha",
-              "Ouvido",
-              "Aranha",
-              "Jacaré"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Dapara",
-            "options": [
-              "Olho",
-              "Vaca",
-              "Tatu",
-              "Pé"
-            ],
-            "correctIndex": 3
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Piró'óre",
-            "options": [
-              "Vaca",
-              "Aranha",
-              "Borboleta",
-              "Ouvido"
-            ],
-            "correctIndex": 2
-          },
-          {
-            "type": "choice",
-            "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Idzo'úhu",
-            "options": [
-              "Lagartixa",
-              "Abelha",
-              "Gato",
-              "Pato"
+              "Seriema",
+              "Urubu",
+              "Arara vermelha",
+              "Beija-flor"
             ],
             "correctIndex": 1
           },
           {
             "type": "choice",
             "prompt": "Escute. O que quer dizer em português?",
-            "audio": "Ma'u",
+            "audio": "wi'i",
             "options": [
-              "Gato",
-              "Lagartixa",
-              "Olho",
-              "Pato"
+              "Seriema",
+              "Perdiz",
+              "Bem-te-vi",
+              "Periquito"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "wa'ridi",
+            "options": [
+              "Urubu",
+              "Arara amarela",
+              "Seriema",
+              "Periquito"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsiba",
+            "options": [
+              "Seriema",
+              "Gavião",
+              "Garça",
+              "Periquito"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "arãrã",
+            "options": [
+              "Arara amarela",
+              "Beija-flor",
+              "Arara vermelha",
+              "Periquito"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "'rẽre",
+            "options": [
+              "Gavião",
+              "Perdiz",
+              "Seriema",
+              "Periquito"
             ],
             "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsitéhã",
+            "options": [
+              "Arara amarela",
+              "Garça",
+              "Seriema",
+              "Bem-te-vi"
+            ],
+            "correctIndex": 3
+          }
+        ]
+      },
+      {
+        "id": "e5_l3",
+        "title": "Bichos da Água e Pequenos",
+        "subtitle": "Som Xavante → Português",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "nhowi",
+            "options": [
+              "Ariranha",
+              "Mutuca",
+              "Pacu",
+              "Cigarra"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "i",
+            "options": [
+              "Piranha",
+              "Cupim",
+              "Cigarra",
+              "Marimbondo"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "pidu",
+            "options": [
+              "Ariranha",
+              "Pacu",
+              "Boto",
+              "Mutuca"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "wamnhanare",
+            "options": [
+              "Carrapato",
+              "Marimbondo",
+              "Traíra",
+              "Cigarra"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "'wa'wa",
+            "options": [
+              "Cigarra",
+              "Traíra",
+              "Piranha",
+              "Marimbondo"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "pedzapodo",
+            "options": [
+              "Pacu",
+              "Boto",
+              "Traíra",
+              "Piranha"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "dzu'u'é",
+            "options": [
+              "Ariranha",
+              "Traíra",
+              "Cigarra",
+              "Cupim"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "pedzai'y",
+            "options": [
+              "Traíra",
+              "Boto",
+              "Ariranha",
+              "Carrapato"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "ti'i",
+            "options": [
+              "Marimbondo",
+              "Pacu",
+              "Ariranha",
+              "Boto"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tirowa",
+            "options": [
+              "Mutuca",
+              "Marimbondo",
+              "Carrapato",
+              "Piranha"
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      {
+        "id": "e5_l4",
+        "title": "O Tempo",
+        "subtitle": "Som Xavante → Português",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "ãhãna",
+            "options": [
+              "Depressa",
+              "De noite",
+              "Hoje",
+              "Ontem"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "ahömhö",
+            "options": [
+              "Ontem",
+              "De noite",
+              "Amanhã",
+              "Depressa"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "awẽ",
+            "options": [
+              "Depressa",
+              "Amanhã",
+              "De noite",
+              "Cedo"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "mararé",
+            "options": [
+              "Cedo",
+              "Hoje",
+              "Meio-dia",
+              "Depressa"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "barana",
+            "options": [
+              "Meio-dia",
+              "Depressa",
+              "De noite",
+              "Amanhã"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "abdzuma",
+            "options": [
+              "Ontem",
+              "Amanhã",
+              "Meio-dia",
+              "Hoje"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "höiwahö",
+            "options": [
+              "Hoje",
+              "Depois",
+              "Tarde",
+              "De verdade"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "apötsi",
+            "options": [
+              "Depois",
+              "De verdade",
+              "Hoje",
+              "Amanhã"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "nare",
+            "options": [
+              "Tarde",
+              "De verdade",
+              "Amanhã",
+              "Meio-dia"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsa'ẽtẽ",
+            "options": [
+              "Depressa",
+              "Hoje",
+              "Amanhã",
+              "Depois"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      {
+        "id": "e5_l5",
+        "title": "Lugares",
+        "subtitle": "Som Xavante → Português",
+        "xpReward": 15,
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "warã",
+            "options": [
+              "Escola",
+              "Caminho",
+              "Brejo",
+              "Centro da aldeia"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "buru",
+            "options": [
+              "Brejo",
+              "Caminho",
+              "Roça",
+              "Banheiro"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "bödödi",
+            "options": [
+              "Roça",
+              "Caminho",
+              "Centro da aldeia",
+              "Brejo"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "romnhorédzé",
+            "options": [
+              "Escola",
+              "Brejo",
+              "Clareira",
+              "Caminho"
+            ],
+            "correctIndex": 0
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "dawededzé",
+            "options": [
+              "Brejo",
+              "Escola",
+              "Caminho",
+              "Hospital"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "'ri'ahö",
+            "options": [
+              "Roça",
+              "Clareira",
+              "Brejo",
+              "Cidade"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsitob're",
+            "options": [
+              "Escola",
+              "Banheiro",
+              "Hospital",
+              "Roça"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "robtö",
+            "options": [
+              "Banheiro",
+              "Brejo",
+              "Roça",
+              "Colina"
+            ],
+            "correctIndex": 3
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "rowarĩrĩ",
+            "options": [
+              "Colina",
+              "Clareira",
+              "Escola",
+              "Caminho"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "type": "choice",
+            "prompt": "Escute. O que quer dizer em português?",
+            "audio": "tsadarã",
+            "options": [
+              "Brejo",
+              "Colina",
+              "Banheiro",
+              "Hospital"
+            ],
+            "correctIndex": 0
           }
         ]
       }

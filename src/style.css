@@ -1415,3 +1415,4 @@ body { background: #FAF7F2; display: block; }
 .listen-btn span { font-size: 20px; font-weight: 900; color: #5C4400; }
 .listen-btn.slow { font-size: 40px; }
 .listen-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #B38600; }
+.choice-emoji { font-size: 120px; line-height: 180px; width: 180px; height: 180px; text-align:center; background:#fff; border-radius:20px; border:3px solid #E5DED3; }

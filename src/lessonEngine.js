@@ -110,10 +110,10 @@ export class LessonEngine {
     container.appendChild(promptTitle);
 
     // Figura (etapa 2: associar a imagem à palavra em Xavante)
-    if (q.image) {
+    if (q.image || q.emoji) {
       const fig = document.createElement('div');
       fig.className = 'choice-figure';
-      fig.innerHTML = `<img src="${q.image}" alt="figura" />`;
+      fig.innerHTML = q.image ? `<img src="${q.image}" alt="figura" />` : `<div class="choice-emoji" role="img" aria-label="figura">${q.emoji}</div>`;
       container.appendChild(fig);
     }
 
