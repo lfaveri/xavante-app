@@ -414,7 +414,7 @@ function setupPractice() {
       {
         type: 'choice',
         prompt: 'Como fala "Meu pai" em Xavante?',
-        options: ['I-mama', 'I-no', 'Aibö', 'Damõri'],
+        options: ['Ĩmamẽ', 'I-no', 'Aibö', 'Damõri'],
         correctIndex: 0,
         phonetic: '[i-ma-ma]'
       }

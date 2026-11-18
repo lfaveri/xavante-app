@@ -3107,14 +3107,14 @@ export const UNITS = [
       {
         "id": "u2_l2",
         "title": "A Família",
-        "subtitle": "I-mama, I-no e Ba'õtõ",
+        "subtitle": "Ĩmamẽ, I-no e Ba'õtõ",
         "xpReward": 25,
         "questions": [
           {
             "type": "choice",
             "prompt": "Como fala \"Meu pai\" em Xavante?",
             "options": [
-              "I-mama",
+              "Ĩmamẽ",
               "I-no",
               "Waradzu",
               "Po're"
@@ -3127,7 +3127,7 @@ export const UNITS = [
             "prompt": "E como fala \"Minha mãe\"?",
             "options": [
               "I-no",
-              "I-mama",
+              "Ĩmamẽ",
               "Tsere",
               "Ri"
             ],
@@ -3139,7 +3139,7 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "I-mama",
+                "xavante": "Ĩmamẽ",
                 "portuguese": "Meu pai"
               },
               {
