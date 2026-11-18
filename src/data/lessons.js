@@ -83,16 +83,16 @@ export const UNITS = [
       {
         id: 'u1_l1',
         title: 'Como vai você?',
-        subtitle: 'E rowẽdi? e Rowẽ uptabidi',
+        subtitle: 'E rowẽdi e Rowẽ uptabidi',
         xpReward: 15,
         questions: [
           {
             type: 'choice',
             prompt: 'Como fala "Tudo bem?" em Xavante?',
-            options: ['E rowẽdi?', 'Hã', 'Romhö', 'Aibö'],
+            options: ['E rowẽdi', 'Hã', 'Romhö', 'Aibö'],
             correctIndex: 0,
             phonetic: '[tõ ba]',
-            culturalTip: 'Na aldeia, a gente fala "E rowẽdi?" quando encontra alguém.'
+            culturalTip: 'Na aldeia, a gente fala "E rowẽdi" quando encontra alguém.'
           },
           {
             type: 'choice',
@@ -106,7 +106,7 @@ export const UNITS = [
             type: 'match',
             prompt: 'Junte cada palavra com o que ela quer dizer:',
             pairs: [
-              { xavante: 'E rowẽdi?', portuguese: 'Tudo bem?' },
+              { xavante: 'E rowẽdi', portuguese: 'Tudo bem?' },
               { xavante: 'Rowẽ uptabidi', portuguese: 'Muito bem!' },
               { xavante: 'Damõri', portuguese: 'Vamos / Ir' },
               { xavante: 'Heparĩ', portuguese: 'Obrigado' }
@@ -147,7 +147,7 @@ export const UNITS = [
           {
             type: 'choice',
             prompt: 'O que você fala para quem vai viajar: "Vão em paz!"?',
-            options: ['Morĩ wa\'aba', 'E rowẽdi?', 'Tsa', 'Höri'],
+            options: ['Morĩ wa\'aba', 'E rowẽdi', 'Tsa', 'Höri'],
             correctIndex: 0,
             phonetic: '[mõ-rĩ wa-a-ba]'
           },
@@ -164,7 +164,7 @@ export const UNITS = [
             pairs: [
               { xavante: 'Heparĩ', portuguese: 'Obrigado' },
               { xavante: 'Morĩ wa\'aba', portuguese: 'Vão em paz' },
-              { xavante: 'E rowẽdi?', portuguese: 'Como vai?' },
+              { xavante: 'E rowẽdi', portuguese: 'Como vai?' },
               { xavante: 'Rowẽ uptabidi', portuguese: 'Tudo ótimo' }
             ]
           },
@@ -430,7 +430,7 @@ export const UNITS = [
           {
             type: 'choice',
             prompt: 'E como fala "Veado"?',
-            options: ['Aba', 'Pi\'õ', 'E rowẽdi?', 'Wahu'],
+            options: ['Aba', 'Pi\'õ', 'E rowẽdi', 'Wahu'],
             correctIndex: 0,
             phonetic: '[a-ba]'
           },
