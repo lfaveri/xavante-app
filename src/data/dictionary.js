@@ -1,6 +1,7 @@
 // dictionary.js - Dicionário Xavante (A'uwẽ Mreme) -> Português
 // Fonte: LACHNITT, Georg. Dicionário Xavante-Português. Campo Grande: Missão Salesiana de Mato Grosso, 1987.
-// Transcrição fiel da escrita do original (Dicionário Salesiano). 4512 verbetes.
+// Com correções da comunidade (vocabulário corrigido v2).
+// Transcrição fiel da escrita do original (Dicionário Salesiano). 4520 verbetes.
 
 export const CATEGORIES = [
   { id: 'todas', name: 'Todas', icon: '🌟' },
@@ -344,7 +345,7 @@ export const DICTIONARY = [
   "category": "plantas",
   "categoryName": "Plantas e Alimentos",
   "example": "a'odo s. coco, coco de bocaiúva",
-  "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+  "note": "Correção da comunidade (vocabulário corrigido v2). Bocaiúva = a'odo; árvore da macaúba = tsé."
  },
  {
   "id": "a_odza",
@@ -2171,6 +2172,17 @@ export const DICTIONARY = [
   "categoryName": "Ações e Verbos",
   "example": "aime v.sing. - datsime = datsiwabdzuri v.du. deitar-se, jogar-se, meter-se; da'ãma datsiwãri v. ajudar; aime na ajude-me!",
   "note": "Forma relacionada: datsime"
+ },
+ {
+  "id": "aimri_v2",
+  "xavante": "aimõri",
+  "portuguese": "já ir embora",
+  "pos": "v.",
+  "related": "",
+  "category": "acoes",
+  "categoryName": "Ações e Verbos",
+  "example": "aimõri — já ir embora",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
   "id": "aiparapitsudu",
@@ -5119,6 +5131,17 @@ export const DICTIONARY = [
   "categoryName": "Vocabulário Geral",
   "example": "dahu nho'u s./s. muita gente, povoado",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "damri_v2",
+  "xavante": "damõri",
+  "portuguese": "vamos, ir",
+  "pos": "v.",
+  "related": "",
+  "category": "acoes",
+  "categoryName": "Ações e Verbos",
+  "example": "damõri — vamos, ir",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
   "id": "danhimbo",
@@ -8498,6 +8521,17 @@ export const DICTIONARY = [
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
  },
  {
+  "id": "e_rowdi_v2",
+  "xavante": "e rowẽdi",
+  "portuguese": "tudo bem? como vai?",
+  "pos": "",
+  "related": "",
+  "category": "saudacoes",
+  "categoryName": "Saudações",
+  "example": "e rowẽdi — tudo bem? como vai?",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
+ },
+ {
   "id": "e_e",
   "xavante": "é'é",
   "portuguese": "zumbido",
@@ -9125,15 +9159,15 @@ export const DICTIONARY = [
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
  },
  {
-  "id": "hepari",
-  "xavante": "hepãrĩ",
-  "portuguese": "de elogio, obrigado!",
-  "pos": "interj. excl.",
+  "id": "hepar_v2",
+  "xavante": "heparĩ",
+  "portuguese": "obrigado",
+  "pos": "interj.",
   "related": "",
   "category": "saudacoes",
   "categoryName": "Saudações",
-  "example": "hepãrĩ interj. excl. de elogio, obrigado!",
-  "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+  "example": "heparĩ — obrigado",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
   "id": "hereroi_wa",
@@ -11633,6 +11667,17 @@ export const DICTIONARY = [
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
  },
  {
+  "id": "imama_w_uptabi_to_v2",
+  "xavante": "Imama wẽ uptabi to",
+  "portuguese": "Muito bem, meu pai! (outra forma)",
+  "pos": "",
+  "related": "",
+  "category": "saudacoes",
+  "categoryName": "Saudações",
+  "example": "Imama wẽ uptabi to — Muito bem, meu pai! (outra forma)",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
+ },
+ {
   "id": "imropo",
   "xavante": "ĩmropö",
   "portuguese": "seis",
@@ -11653,6 +11698,17 @@ export const DICTIONARY = [
   "categoryName": "Números e Cores",
   "example": "ĩmrotõ num. cinco",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "para_v2",
+  "xavante": "ĩpara",
+  "portuguese": "meu pé (ĩ- = meu)",
+  "pos": "s.",
+  "related": "",
+  "category": "pessoas",
+  "categoryName": "Pessoas e Família",
+  "example": "ĩpara — meu pé (ĩ- = meu)",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
   "id": "itehutunhitsip_ri",
@@ -18659,7 +18715,7 @@ export const DICTIONARY = [
   "category": "cotidiano",
   "categoryName": "Vocabulário Geral",
   "example": "para s. - dapara pé, roda",
-  "note": "Forma relacionada: dapara"
+  "note": "Correção da comunidade (vocabulário corrigido v2). Forma isolada: dapara (pé de alguém); ĩpara = meu pé; wapara = nosso pé."
  },
  {
   "id": "para_2",
@@ -28232,6 +28288,28 @@ export const DICTIONARY = [
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
  },
  {
+  "id": "row_uptabidi_v2",
+  "xavante": "rowẽ uptabidi",
+  "portuguese": "muito bem, tudo ótimo",
+  "pos": "",
+  "related": "",
+  "category": "saudacoes",
+  "categoryName": "Saudações",
+  "example": "rowẽ uptabidi — muito bem, tudo ótimo",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
+ },
+ {
+  "id": "row_uptabidi_mam_v2",
+  "xavante": "Rowẽ uptabidi ĩmamẽ!",
+  "portuguese": "Muito bem, meu pai!",
+  "pos": "",
+  "related": "",
+  "category": "saudacoes",
+  "categoryName": "Saudações",
+  "example": "Rowẽ uptabidi ĩmamẽ! — Muito bem, meu pai!",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
+ },
+ {
   "id": "rowede",
   "xavante": "rowede",
   "portuguese": "comércio",
@@ -28274,6 +28352,17 @@ export const DICTIONARY = [
   "categoryName": "Vocabulário Geral",
   "example": "rowede'wa s.comp. aplicador de adubo",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "rowdi_v2",
+  "xavante": "rowẽdi",
+  "portuguese": "muito bem, tudo ótimo",
+  "pos": "",
+  "related": "",
+  "category": "saudacoes",
+  "categoryName": "Saudações",
+  "example": "rowẽdi — muito bem, tudo ótimo",
+  "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
   "id": "rowedza_ene",
@@ -43772,7 +43861,7 @@ export const DICTIONARY = [
   "category": "animais",
   "categoryName": "Animais do Cerrado",
   "example": "uti s. sapo",
-  "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+  "note": "Correção da comunidade (vocabulário corrigido v2). Sapo é uti (não é apaire)."
  },
  {
   "id": "uti_wa",

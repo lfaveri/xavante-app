@@ -156,7 +156,7 @@ function renderTrail() {
   mascotBanner.innerHTML = `
     <img src="assets/mascot.jpg" alt="Hu'u'upto Siptete" class="mascot-thumb" />
     <div class="mascot-speech">
-      <strong>Rowẽ di!</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
+      <strong>E rowẽdi?</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
     </div>
   `;
   el.viewTrail.appendChild(mascotBanner);
@@ -397,7 +397,7 @@ function setupPractice() {
       {
         type: 'choice',
         prompt: 'Como fala "Tudo bem?" em Xavante?',
-        options: ['Rowẽ di?', 'Hã', 'Romhö', 'Aibö'],
+        options: ['E rowẽdi?', 'Hã', 'Romhö', 'Aibö'],
         correctIndex: 0,
         phonetic: '[tõ ba]'
       },
@@ -414,7 +414,7 @@ function setupPractice() {
       {
         type: 'choice',
         prompt: 'Como fala "Meu pai" em Xavante?',
-        options: ['I-mama', 'I-no', 'Aibö', 'Tó'],
+        options: ['I-mama', 'I-no', 'Aibö', 'Damõri'],
         correctIndex: 0,
         phonetic: '[i-ma-ma]'
       }

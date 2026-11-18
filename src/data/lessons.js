@@ -83,20 +83,20 @@ export const UNITS = [
       {
         id: 'u1_l1',
         title: 'Como vai você?',
-        subtitle: 'Rowẽ di? e Wẽ uptabi di',
+        subtitle: 'E rowẽdi? e Rowẽ uptabidi',
         xpReward: 15,
         questions: [
           {
             type: 'choice',
             prompt: 'Como fala "Tudo bem?" em Xavante?',
-            options: ['Rowẽ di?', 'Hã', 'Romhö', 'Aibö'],
+            options: ['E rowẽdi?', 'Hã', 'Romhö', 'Aibö'],
             correctIndex: 0,
             phonetic: '[tõ ba]',
-            culturalTip: 'Na aldeia, a gente fala "Rowẽ di?" quando encontra alguém.'
+            culturalTip: 'Na aldeia, a gente fala "E rowẽdi?" quando encontra alguém.'
           },
           {
             type: 'choice',
-            prompt: 'O que quer dizer "Wẽ uptabi di"?',
+            prompt: 'O que quer dizer "Rowẽ uptabidi"?',
             options: ['Boa noite', 'Muito bem! / Tudo ótimo!', 'Vá embora', 'Obrigado'],
             correctIndex: 1,
             phonetic: '[tõ up-ta-bi]',
@@ -106,48 +106,48 @@ export const UNITS = [
             type: 'match',
             prompt: 'Junte cada palavra com o que ela quer dizer:',
             pairs: [
-              { xavante: 'Rowẽ di?', portuguese: 'Tudo bem?' },
-              { xavante: 'Wẽ uptabi di', portuguese: 'Muito bem!' },
-              { xavante: 'Tó', portuguese: 'Vamos / Ir' },
-              { xavante: 'Datsa\'a', portuguese: 'Obrigado' }
+              { xavante: 'E rowẽdi?', portuguese: 'Tudo bem?' },
+              { xavante: 'Rowẽ uptabidi', portuguese: 'Muito bem!' },
+              { xavante: 'Damõri', portuguese: 'Vamos / Ir' },
+              { xavante: 'Heparĩ', portuguese: 'Obrigado' }
             ]
           },
           {
             type: 'sentence',
             prompt: 'Coloque as palavras na ordem certa:',
             targetTranslation: 'Muito bem, meu pai!',
-            options: ['Wẽ', 'uptabi', 'di,', 'i-mama!', 'Hã', 'tsere'],
-            correctOrder: ['Wẽ', 'uptabi', 'di,', 'i-mama!']
+            options: ['Rowẽ', 'uptabidi', 'ĩmamẽ!', 'Hã', 'tsere'],
+            correctOrder: ['Rowẽ', 'uptabidi', 'ĩmamẽ!']
           },
           {
             type: 'phonetic',
-            prompt: 'Escute a palavra. O sinal (\') é uma pausa rápida na voz:',
-            word: 'Datsa\'a',
-            phonetic: '[da-tsa-ʔa]',
+            prompt: 'Escute a palavra:',
+            word: 'Heparĩ',
+            phonetic: '[he-pa-rĩ]',
             meaning: 'Obrigado / Gratidão',
-            options: ['Datsa\'a', 'Tó', 'Aibö'],
+            options: ['Heparĩ', 'Damõri', 'Aibö'],
             correctIndex: 0,
-            culturalTip: 'O sinal (\') quer dizer: pare a voz um pouquinho.'
+            culturalTip: 'Heparĩ é como se agradece.'
           }
         ]
       },
       {
         id: 'u1_l2',
         title: 'Despedidas e Gratidão',
-        subtitle: 'Datsa\'a e Morĩ wa\'aba',
+        subtitle: 'Heparĩ e Morĩ wa\'aba',
         xpReward: 20,
         questions: [
           {
             type: 'choice',
             prompt: 'Como fala "Obrigado" em Xavante?',
-            options: ['Datsa\'a', 'Po\'o', 'Wahi', 'Bö'],
+            options: ['Heparĩ', 'Po\'o', 'Wahi', 'Bö'],
             correctIndex: 0,
-            phonetic: '[da-tsa-ʔa]'
+            phonetic: '[he-pa-rĩ]'
           },
           {
             type: 'choice',
             prompt: 'O que você fala para quem vai viajar: "Vão em paz!"?',
-            options: ['Morĩ wa\'aba', 'Rowẽ di?', 'Tsa', 'Höri'],
+            options: ['Morĩ wa\'aba', 'E rowẽdi?', 'Tsa', 'Höri'],
             correctIndex: 0,
             phonetic: '[mõ-rĩ wa-a-ba]'
           },
@@ -155,17 +155,27 @@ export const UNITS = [
             type: 'sentence',
             prompt: 'Coloque as palavras na ordem certa:',
             targetTranslation: 'Vamos em frente!',
-            options: ['Tó', 'hã', 'wa!', 'Öwawe', 'Pi\'õ'],
-            correctOrder: ['Tó', 'hã', 'wa!']
+            options: ['Damõri', 'hã', 'wa!', 'Öwawe', 'Pi\'õ'],
+            correctOrder: ['Damõri', 'hã', 'wa!']
           },
           {
             type: 'match',
             prompt: 'Junte cada palavra com o que ela quer dizer:',
             pairs: [
-              { xavante: 'Datsa\'a', portuguese: 'Obrigado' },
+              { xavante: 'Heparĩ', portuguese: 'Obrigado' },
               { xavante: 'Morĩ wa\'aba', portuguese: 'Vão em paz' },
-              { xavante: 'Rowẽ di?', portuguese: 'Como vai?' },
-              { xavante: 'Wẽ uptabi di', portuguese: 'Tudo ótimo' }
+              { xavante: 'E rowẽdi?', portuguese: 'Como vai?' },
+              { xavante: 'Rowẽ uptabidi', portuguese: 'Tudo ótimo' }
+            ]
+          },
+          {
+            type: 'match',
+            prompt: 'Junte cada palavra com o que ela quer dizer:',
+            pairs: [
+              { xavante: 'Marawẽ', portuguese: 'Boa noite' },
+              { xavante: 'Aimõri', portuguese: 'Já ir embora' },
+              { xavante: 'Damõri', portuguese: 'Vamos / Ir' },
+              { xavante: 'Heparĩ', portuguese: 'Obrigado' }
             ]
           }
         ]
@@ -285,7 +295,7 @@ export const UNITS = [
           {
             type: 'choice',
             prompt: 'Como fala "Cerrado / Mato" em Xavante?',
-            options: ['Bö', 'Ö', 'Ri', 'Tó'],
+            options: ['Bö', 'Ö', 'Ri', 'Damõri'],
             correctIndex: 0,
             phonetic: '[bə̃]'
           },
@@ -340,8 +350,8 @@ export const UNITS = [
             type: 'sentence',
             prompt: 'Coloque as palavras na ordem certa:',
             targetTranslation: 'Vamos para o cerrado',
-            options: ['Tó', 'hã', 'bö', 'u!', 'Po\'o'],
-            correctOrder: ['Tó', 'hã', 'bö', 'u!']
+            options: ['Damõri', 'hã', 'bö', 'u!', 'Po\'o'],
+            correctOrder: ['Damõri', 'hã', 'bö', 'u!']
           }
         ]
       }
@@ -420,7 +430,7 @@ export const UNITS = [
           {
             type: 'choice',
             prompt: 'E como fala "Veado"?',
-            options: ['Aba', 'Pi\'õ', 'Rowẽ di?', 'Wahu'],
+            options: ['Aba', 'Pi\'õ', 'E rowẽdi?', 'Wahu'],
             correctIndex: 0,
             phonetic: '[a-ba]'
           },
@@ -453,7 +463,7 @@ export const UNITS = [
           {
             type: 'choice',
             prompt: 'Como fala "Comer" em Xavante?',
-            options: ['Tsa', 'Öri', 'Tó', 'Hã'],
+            options: ['Tsa', 'Öri', 'Damõri', 'Hã'],
             correctIndex: 0,
             phonetic: '[tsa]'
           },
