@@ -94,7 +94,7 @@ function initApp() {
   // Register PWA Service Worker (Offline Support)
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js').catch(err => {
+      navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).then(r => r.update()).catch(err => {
         console.log('SW registration note:', err);
       });
     });

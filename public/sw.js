@@ -1,5 +1,5 @@
 // sw.js - Service Worker para funcionamento 100% Offline
-const CACHE_NAME = 'xavante-app-cache-v4';
+const CACHE_NAME = 'xavante-app-cache-v5';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -55,31 +55,20 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Rede primeiro (pega sempre a versão nova quando há internet);
+// sem internet, usa a cópia guardada.
 self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request, { ignoreVary: true, ignoreSearch: true }).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
+    fetch(event.request).then((networkResponse) => {
+      if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+        const copy = networkResponse.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
       }
-      return fetch(event.request).then((networkResponse) => {
-        // Cache dynamic assets if valid
-        if (
-          networkResponse &&
-          networkResponse.status === 200 &&
-          networkResponse.type === 'basic'
-        ) {
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-        }
-        return networkResponse;
-      }).catch(() => {
-        // Fallback for navigation requests
-        if (event.request.mode === 'navigate') {
-          return caches.match('index.html');
-        }
-      });
-    })
+      return networkResponse;
+    }).catch(() =>
+      caches.match(event.request, { ignoreVary: true, ignoreSearch: true })
+        .then((r) => r || caches.match('index.html'))
+    )
   );
 });
