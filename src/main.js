@@ -156,7 +156,7 @@ function renderTrail() {
   mascotBanner.innerHTML = `
     <img src="assets/mascot.jpg" alt="Hu'u'upto Siptete" class="mascot-thumb" />
     <div class="mascot-speech">
-      <strong>E rowẽdi</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
+      <strong>E rowẽdi!</strong> Eu sou a Hu'u'upto Siptete, sua guia para aprender a língua Xavante!
     </div>
   `;
   el.viewTrail.appendChild(mascotBanner);
@@ -180,7 +180,7 @@ function renderTrail() {
     banner.className = 'unit-banner';
     banner.style.background = `linear-gradient(135deg, ${unit.color}, ${unit.accentColor || '#333'})`;
     banner.innerHTML = `
-      <div class="unit-tag">${unit.icon} ${unit.number === 0 ? 'Começo' : `Parte ${unit.number}`}</div>
+      <div class="unit-tag">${unit.icon} Parte ${unit.number}</div>
       <div class="unit-title">${unit.title}</div>
       <div class="unit-desc">${unit.description}</div>
     `;
@@ -214,7 +214,7 @@ function renderTrail() {
       }
 
       const isFirst = globalLevelIndex === 0;          // Acostumando: seta "Comece aqui"
-      const isHero = isFirst || level.id === 'u1_l1';   // títulos em destaque
+      const isHero = isFirst;   // títulos em destaque
       if (isHero) nodeWrapper.classList.add('node-first');
 
       nodeWrapper.innerHTML = `

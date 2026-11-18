@@ -109,7 +109,30 @@ export class LessonEngine {
     promptTitle.textContent = q.prompt;
     container.appendChild(promptTitle);
 
-    if (q.phonetic) {
+    // Figura (etapa 2: associar a imagem à palavra em Xavante)
+    if (q.image) {
+      const fig = document.createElement('div');
+      fig.className = 'choice-figure';
+      fig.innerHTML = `<img src="${q.image}" alt="figura" />`;
+      container.appendChild(fig);
+    }
+
+    // Som (etapas 4 e 5): toca a palavra em Xavante; o aluno procura a resposta
+    if (q.audio) {
+      const say = (slow) => sounds.playWord(q.audio.toLowerCase().replace(/[^a-z0-9]/g, '_'), q.audio, q.audio, slow);
+      const box = document.createElement('div');
+      box.className = 'listen-box';
+      box.innerHTML = `
+        <button class="listen-btn" type="button" aria-label="Ouvir">🔊<span>Ouvir</span></button>
+        <button class="listen-btn slow" type="button" aria-label="Ouvir devagar">🐢<span>Devagar</span></button>`;
+      const [b1, b2] = box.querySelectorAll('button');
+      b1.addEventListener('click', (e) => { e.stopPropagation(); say(false); });
+      b2.addEventListener('click', (e) => { e.stopPropagation(); say(true); });
+      container.appendChild(box);
+      setTimeout(() => say(false), 350);
+    }
+
+    if (q.phonetic && !q.audio) {
       const helper = document.createElement('div');
       helper.className = 'lesson-mascot-helper';
       // O som fala a PERGUNTA, nunca a resposta.
