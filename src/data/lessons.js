@@ -79,7 +79,7 @@ export const UNITS = [
                 "image": "assets/cachorro.png"
               },
               {
-                "xavante": "Pówawe",
+                "xavante": "Pówawẽ",
                 "portuguese": "Vaca",
                 "image": "assets/vaca.png"
               },
@@ -100,7 +100,7 @@ export const UNITS = [
             "prompt": "Toque na figura e depois na palavra certa:",
             "pairs": [
               {
-                "xavante": "Dató / Datõmõ",
+                "xavante": "Datõmo",
                 "portuguese": "Olho",
                 "image": "assets/olho.png"
               },
@@ -126,7 +126,7 @@ export const UNITS = [
             "prompt": "Toque na figura e depois na palavra certa:",
             "pairs": [
               {
-                "xavante": "Ma'u",
+                "xavante": "Mã'u",
                 "portuguese": "Pato",
                 "image": "assets/pato.png"
               },
@@ -141,7 +141,7 @@ export const UNITS = [
                 "image": "assets/tatu.png"
               },
               {
-                "xavante": "Nhõ'runi",
+                "xavante": "Nhõ'rõni",
                 "portuguese": "Gato",
                 "image": "assets/gato.png"
               }
@@ -3231,7 +3231,7 @@ export const UNITS = [
                 "portuguese": "Vamos / Ir"
               },
               {
-                "xavante": "Hepãri",
+                "xavante": "Hepãrĩ",
                 "portuguese": "Obrigado"
               }
             ]
@@ -3253,7 +3253,7 @@ export const UNITS = [
                 "portuguese": "Vamos / Ir"
               },
               {
-                "xavante": "Hepãri",
+                "xavante": "Hepãrĩ",
                 "portuguese": "Obrigado"
               }
             ]
@@ -3261,30 +3261,30 @@ export const UNITS = [
           {
             "type": "phonetic",
             "prompt": "Escute a palavra:",
-            "word": "Hepãri",
+            "word": "Hepãrĩ",
             "phonetic": "[he-pa-rĩ]",
             "meaning": "Obrigado / Gratidão",
             "options": [
-              "Hepãri",
+              "Hepãrĩ",
               "Damõri",
               "Aibö"
             ],
             "correctIndex": 0,
-            "culturalTip": "Hepãri é como se agradece."
+            "culturalTip": "Hepãrĩ é como se agradece."
           }
         ]
       },
       {
         "id": "u1_l2",
         "title": "Despedidas e Gratidão",
-        "subtitle": "Hepãri e Morĩ wa'aba",
+        "subtitle": "Hepãrĩ e Morĩ wa'aba",
         "xpReward": 20,
         "questions": [
           {
             "type": "choice",
             "prompt": "Como fala \"Obrigado\" em Xavante?",
             "options": [
-              "Hepãri",
+              "Hepãrĩ",
               "Po'o",
               "Wahi",
               "Bö"
@@ -3309,7 +3309,7 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Hepãri",
+                "xavante": "Hepãrĩ",
                 "portuguese": "Obrigado"
               },
               {
@@ -3331,7 +3331,7 @@ export const UNITS = [
             "prompt": "Junte cada palavra com o que ela quer dizer:",
             "pairs": [
               {
-                "xavante": "Hepãri",
+                "xavante": "Hepãrĩ",
                 "portuguese": "Obrigado"
               },
               {
@@ -3365,7 +3365,7 @@ export const UNITS = [
                 "portuguese": "Vamos / Ir"
               },
               {
-                "xavante": "Hepãri",
+                "xavante": "Hepãrĩ",
                 "portuguese": "Obrigado"
               }
             ]

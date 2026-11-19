@@ -1,7 +1,7 @@
 // dictionary.js - Dicionário Xavante (A'uwẽ Mreme) -> Português
 // Fonte: LACHNITT, Georg. Dicionário Xavante-Português. Campo Grande: Missão Salesiana de Mato Grosso, 1987.
 // Com correções da comunidade (vocabulário corrigido v2).
-// Transcrição fiel da escrita do original (Dicionário Salesiano). 4520 verbetes.
+// Transcrição fiel da escrita do original (Dicionário Salesiano). 4526 verbetes.
 
 export const CATEGORIES = [
   { id: 'todas', name: 'Todas', icon: '🌟' },
@@ -2031,6 +2031,17 @@ export const DICTIONARY = [
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
  },
  {
+  "id": "aihoi_re_c19",
+  "xavante": "Aihoi'ré",
+  "portuguese": "jacaré",
+  "pos": "s.",
+  "related": "",
+  "category": "animais",
+  "categoryName": "Animais do Cerrado",
+  "example": "Aihoi'ré — jacaré",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
+ },
+ {
   "id": "aihu",
   "xavante": "aihu",
   "portuguese": "pauzinho da orelha, brinco",
@@ -3074,6 +3085,17 @@ export const DICTIONARY = [
   "categoryName": "Animais do Cerrado",
   "example": "apa s. lagartixa",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "apaire_c19",
+  "xavante": "Apaire",
+  "portuguese": "lagartixa",
+  "pos": "s.",
+  "related": "",
+  "category": "animais",
+  "categoryName": "Animais do Cerrado",
+  "example": "Apaire — lagartixa",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "api",
@@ -5241,6 +5263,17 @@ export const DICTIONARY = [
   "categoryName": "Vocabulário Geral",
   "example": "dati'ö'u s.comp. jaó",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "datomo_c19",
+  "xavante": "Datõmo",
+  "portuguese": "olho",
+  "pos": "s.",
+  "related": "",
+  "category": "pessoas",
+  "categoryName": "Pessoas e Família",
+  "example": "Datõmo — olho",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "datsina_damrodze",
@@ -9160,14 +9193,14 @@ export const DICTIONARY = [
  },
  {
   "id": "hepar_v2",
-  "xavante": "hepãri",
+  "xavante": "hepãrĩ",
   "portuguese": "obrigado",
   "pos": "interj.",
   "related": "",
   "category": "saudacoes",
   "categoryName": "Saudações",
-  "example": "hepãri — obrigado",
-  "note": "Correção da comunidade (vocabulário corrigido v2)."
+  "example": "hepãrĩ — obrigado",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "hereroi_wa",
@@ -11786,6 +11819,17 @@ export const DICTIONARY = [
   "categoryName": "Animais do Cerrado",
   "example": "ma'u s. pato",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "ma_u_c19",
+  "xavante": "Mã'u",
+  "portuguese": "pato",
+  "pos": "s.",
+  "related": "",
+  "category": "animais",
+  "categoryName": "Animais do Cerrado",
+  "example": "Mã'u — pato",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "ma_ubutupa",
@@ -16307,6 +16351,17 @@ export const DICTIONARY = [
   "categoryName": "Animais do Cerrado",
   "example": "nho'rõni s. jaguatirica",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "nho_roni_c19",
+  "xavante": "Nhõ'rõni",
+  "portuguese": "gato",
+  "pos": "s.",
+  "related": "",
+  "category": "animais",
+  "categoryName": "Animais do Cerrado",
+  "example": "Nhõ'rõni — gato",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "nho_ronire",
@@ -20916,6 +20971,17 @@ export const DICTIONARY = [
   "categoryName": "Animais do Cerrado",
   "example": "powawẽ s. gado, boi, vaca",
   "note": "Dicionário Xavante-Português (Lachnitt, 1987)."
+ },
+ {
+  "id": "powawe_c19",
+  "xavante": "Pówawẽ",
+  "portuguese": "vaca, gado",
+  "pos": "s.",
+  "related": "",
+  "category": "animais",
+  "categoryName": "Animais do Cerrado",
+  "example": "Pówawẽ — vaca, gado",
+  "note": "Correção da comunidade (construção conjunta, 19/11/2026)."
  },
  {
   "id": "powawe_aibo",
