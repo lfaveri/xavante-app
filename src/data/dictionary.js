@@ -9160,13 +9160,13 @@ export const DICTIONARY = [
  },
  {
   "id": "hepar_v2",
-  "xavante": "heparĩ",
+  "xavante": "hepãri",
   "portuguese": "obrigado",
   "pos": "interj.",
   "related": "",
   "category": "saudacoes",
   "categoryName": "Saudações",
-  "example": "heparĩ — obrigado",
+  "example": "hepãri — obrigado",
   "note": "Correção da comunidade (vocabulário corrigido v2)."
  },
  {
