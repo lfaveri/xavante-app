@@ -79,7 +79,7 @@ export const UNITS = [
                 "image": "assets/cachorro.png"
               },
               {
-                "xavante": "Powawe",
+                "xavante": "Pówawe",
                 "portuguese": "Vaca",
                 "image": "assets/vaca.png"
               },
@@ -100,7 +100,7 @@ export const UNITS = [
             "prompt": "Toque na figura e depois na palavra certa:",
             "pairs": [
               {
-                "xavante": "Dató / Datõmõ",
+                "xavante": "Datõmo",
                 "portuguese": "Olho",
                 "image": "assets/olho.png"
               },
@@ -141,7 +141,7 @@ export const UNITS = [
                 "image": "assets/tatu.png"
               },
               {
-                "xavante": "Tsiwi",
+                "xavante": "Nhõ'runi",
                 "portuguese": "Gato",
                 "image": "assets/gato.png"
               }
