@@ -169,122 +169,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐆",
             "options": [
               "hu",
               "tsi'a",
               "'rãti",
               "'ru"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/onca.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐍",
             "options": [
               "watsi",
               "umredzeire",
               "udzöne",
               "wahi"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/cobra.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐟",
             "options": [
               "pe'a",
               "ubu",
               "umnhi'ã",
               "udzö"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/peixe.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐔",
             "options": [
               "'rupo'rere",
               "tsi'a",
               "uba're",
               "utu'u"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/galinha.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🥚",
             "options": [
               "wãtãwã",
               "tã",
               "tsi'are",
               "pe'a"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/ovo.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐒",
             "options": [
               "uba're",
               "romnhi",
               "'ro'o",
               "tsi'are"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/macaco.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐀",
             "options": [
               "norõ'rã",
               "tsiwawẽ",
               "'ru",
               "'rãti"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/rato.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐇",
             "options": [
               "ubu",
               "uhi",
               "'rãti",
               "'rupo'rere"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/coelho.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐎",
             "options": [
               "awaru",
               "utu'u",
               "wãtãwã",
               "waihörö"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/cavalo.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐸",
             "options": [
               "uti",
               "wa'ru",
               "tsa'a",
               "wahi"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/sapo.png"
           }
         ]
       },
@@ -297,122 +297,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐢",
             "options": [
               "tsiwawẽ",
               "tã",
               "u'ã",
               "hu"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/jabuti.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🦜",
             "options": [
               "tsa'a",
               "waihörö",
               "romnhi",
               "ubu"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/papagaio.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🦉",
             "options": [
               "ẽne",
               "hö'a",
               "tsiwawẽ",
               "tsa'a"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/coruja.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🕊️",
             "options": [
               "utu'u",
               "hö'a",
               "tãiwaipo",
               "romnhi"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/pomba.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🦅",
             "options": [
               "tsa'a",
               "tsiwawẽ",
               "'rupo'rere",
               "hö'a"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/aguia.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🪰",
             "options": [
               "robduri",
               "hötöra",
               "'rupo'rere",
               "ubu"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/mosca.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🦟",
             "options": [
               "hunhi'a",
               "tã",
               "wãtãwã",
               "'ru"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/mosquito.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🦗",
             "options": [
               "udzö",
               "rob'rãpré",
               "uhi",
               "'ridi"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/gafanhoto.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐜",
             "options": [
               "'rupo'rere",
               "ubu",
               "norõ'rã",
               "'rãti"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/formiga.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🐌",
             "options": [
               "hu",
               "wãtãwã",
               "ubu",
               "'ro'o"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/caracol.png"
           }
         ]
       },
@@ -425,122 +425,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌙",
             "options": [
               "wa'ru",
               "udzö",
               "tsi'are",
               "a'amo"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/lua.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "⭐",
             "options": [
               "watsi",
               "robduri",
               "tãiwaptsa",
               "tsiwawẽ"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/estrela.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌧️",
             "options": [
               "tsi'a",
               "tã",
               "awaru",
               "wãtãwã"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/chuva.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🔥",
             "options": [
               "hunhi'a",
               "umnhi'ã",
               "'ru",
               "udzö"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/fogo.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🪨",
             "options": [
               "ẽne",
               "watsi",
               "robduri",
               "tãiwaptsa"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/pedra.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "⚡",
             "options": [
               "'ro'o",
               "watsi",
               "tãiwaptsa",
               "atsaro"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/raio.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌈",
             "options": [
               "ropĩ",
               "awaru",
               "tãiwaipo",
               "utu'u"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/arco-iris.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌊",
             "options": [
               "öporé",
               "tsa'a",
               "tsiwawẽ",
               "tsib'édzé"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/mar.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "☁️",
             "options": [
               "höiwa nhirõno",
               "öporé",
               "tãiwaptsa",
               "uti"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/nuvem.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "⛰️",
             "options": [
               "umredzeire",
               "'rãti",
               "'rupo'rere",
               "tsa'a"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/morro.png"
           }
         ]
       },
@@ -553,122 +553,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌽",
             "options": [
               "waihörö",
               "'ridi",
               "hunhi'a",
               "wa'ru"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/milho.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍌",
             "options": [
               "pa'o",
               "ropĩ",
               "uhi",
               "tsib'édzé"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/banana.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍚",
             "options": [
               "atsaro",
               "u'ã",
               "ẽne",
               "wãtãwã"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/arroz.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🫘",
             "options": [
               "tãiwaptsa",
               "uba're",
               "atsaro",
               "uhi"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/feijao.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🎃",
             "options": [
               "ubu",
               "udzöne",
               "waihörö",
               "'ru"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/abobora.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍉",
             "options": [
               "atsaro",
               "'ro'o",
               "umredzeire",
               "wetsu"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/melancia.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍎",
             "options": [
               "tãiwaptsa",
               "pa'o",
               "rob'rãpré",
               "öporé"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/maca.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🌳",
             "options": [
               "wede",
               "'ri",
               "rob'rãpré",
               "tãiwaipo"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/arvore.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍃",
             "options": [
               "'ru",
               "a'amo",
               "wetsu",
               "öporé"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/folha.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍯",
             "options": [
               "tsib'édzé",
               "tã",
               "'ru",
               "ropĩ"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/mel.png"
           }
         ]
       },
@@ -681,122 +681,122 @@ export const UNITS = [
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🍞",
             "options": [
               "norõ'rã",
               "tsib'édzé",
               "udzöne",
               "pahõ"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/pao.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🥩",
             "options": [
               "'ru",
               "romnhi",
               "tã",
               "u'ã"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/carne.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🥥",
             "options": [
               "uba're",
               "u'ã",
               "awaru",
               "norõ'rã"
             ],
-            "correctIndex": 3
+            "correctIndex": 3,
+            "image": "assets/fig/coco.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🏠",
             "options": [
               "'ri",
               "u'ã",
               "romnhi",
               "'ru"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/casa.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🛶",
             "options": [
               "uba're",
               "tsiwawẽ",
               "tãiwaipo",
               "'ro'o"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/barco.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🔪",
             "options": [
               "hötöra",
               "tsib'édzé",
               "udzö",
               "wãtãwã"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/faca.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🪓",
             "options": [
               "tsib'édzé",
               "ropĩ",
               "hötöra",
               "ẽne"
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "image": "assets/fig/machado.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🏹",
             "options": [
               "wa'ru",
               "umnhi'ã",
               "'rupo'rere",
               "tãiwaptsa"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/arco.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "🚗",
             "options": [
               "norõ'rã",
               "robduri",
               "udzöne",
               "a'amo"
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "image": "assets/fig/carro.png"
           },
           {
             "type": "choice",
             "prompt": "Que palavra é esta figura?",
-            "emoji": "✈️",
             "options": [
               "höiwi",
               "tsiwawẽ",
               "'rãti",
               "romnhi"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "image": "assets/fig/aviao.png"
           }
         ]
       }
