@@ -1,5 +1,5 @@
 // sw.js - Service Worker para funcionamento 100% Offline
-const CACHE_NAME = 'xavante-app-cache-v6';
+const CACHE_NAME = 'xavante-app-cache-v7';
 
 const ASSETS_TO_CACHE = [
   './',
